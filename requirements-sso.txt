@@ -1,0 +1,3 @@
+# Only needed when SAGE_AUTH_MODE=oidc (Streamlit st.login uses Authlib).
+-r requirements.txt
+Authlib>=1.3.2,<2

@@ -1,0 +1,35 @@
+{
+  "digests": {
+    "characterise_answer_checks": "e18840d0a2a8ffecf2ea4ffcb1610df8a9159d77acff7f18352ce31737597ff8",
+    "characterise_ask_sage": "4d70ec550ff14656fab6c087f3fcf0525afeb05a361f03eeff5cefd9564232a0",
+    "characterise_audit_rows": "10b98846ea6d08e0e895df210a687f6c22bac44b8f9efacfa8c1ffa8801302fb",
+    "characterise_build_chart": "08d1402f677fd7fd756a8217f96e7a529f27674af922f66514c41828dd032ba5",
+    "characterise_chart_gallery": "2a30834c8db0373ba12508e8c1d69f6fd716dbeef0679e60d5d9ec281a5872d2",
+    "characterise_chart_relevance": "dffc68499060c80ccb25e405a52b8c4bb78ea70bb32e6e196e0ded9326423dbe",
+    "characterise_composition": "de27ffb0c1755297fed5039411a36d092bb7b43b440e8bf99bac3de6d7df7acc",
+    "characterise_cube_fallback": "0b4eb368285748bd36e2f056fdaa1e53130376e7d1bcec4b99ab44923ecd039a",
+    "characterise_cube_slices": "2455ce337b717f9507dcfb0fd1b5d3cbb62c779054277f9ef8e97051f6eb71f0",
+    "characterise_download": "638c112cfc96603a4c02c36e36e7eed99e632acbebb6956992ffe3dde7e026ad",
+    "characterise_evidence_summary": "1a3f94b2030c70733c491eafcf382a30627031cf1d630b83d69e0b2f1433b783",
+    "characterise_hybrid_retrieve": "61d7a81184d9b61088d37bf012d99ed17d7a05518863428e9d16cbcfb4473e25",
+    "characterise_kb_inspect": "36d937ff6bf41c05",
+    "characterise_lightweight_chart": "367f2869b6f528b06f166741b75d96714c8920bbe5148a98696faad5fc39e76e",
+    "characterise_numeric_retry": "5d07e3513aebb949a2e971c6becaba1dfb3c8b4ed6c04fde55051be99a34b3f5",
+    "characterise_page": "30f8027e3c29b960dfecfe9462ef818c97334f9e176a80a566105d48ffc66c23",
+    "characterise_page_scenarios": "3c2eadc23c83ce5ed375a081b3fb64275bd839e63e27e690cda241bfacadf51a",
+    "characterise_process_question": "dfaca4a35f34da81ca3434f723da19deda11aee5914d7498fd10c77a9bbf400a",
+    "characterise_query_table": "b9e9d657e60fcecd5550eca1fe55e0a0a7c03aa3bfee3bec0f94d81684579ee7",
+    "characterise_question_bank": "2ae3efd381842b4500f0fa34ac52d58f23f075c57f47e0f58d9e8c3cf96f4a9d",
+    "characterise_retrieval_rows": "1d9cb542e8a6eb88",
+    "characterise_scoped_preview": "584887f0a76b41685f38977c387ff26d1df756c6e438a69686cc07ac03e023bd",
+    "characterise_sentence_salvage": "1a7f0de6fb5dd8e9fe957025077b0e8de5db429929f4720e798ec2c7e3c9cb77",
+    "characterise_series_brief": "ffbb61d258cf9584b8d9142a4d133c9e72ddc2c0acf2813e9b2cd86b61d7f2e5",
+    "characterise_table_choice": "cee50815c6e21003c0eace961b707486cced802ed3fb2589c3fc2f08e12d9ca7",
+    "characterise_table_explorer": "6e5b1bd3573f70697b3933c7de014e097f87b1ddd29839c145c2ad02e2c88c22"
+  },
+  "environment": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.12"
+  }
+}

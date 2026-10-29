@@ -1,0 +1,284 @@
+SAGE: HOW TO RUN
+================
+
+1. Install
+----------
+    python -m venv .venv
+    .venv\Scripts\activate          (Windows)   or   source .venv/bin/activate
+    pip install -r requirements.txt
+
+2. Configure secrets (never commit or zip these files)
+-----------------------------------------------------
+Copy .env.example to .env  (or .streamlit/secrets.toml.example to
+.streamlit/secrets.toml on Streamlit Community Cloud) and fill in:
+
+    OPENAI_API_KEY   Your OpenAI project key. Use a key restricted to this
+                     project, with a monthly spending limit set in the OpenAI
+                     dashboard. A malformed value stops the app (fail closed).
+                     On Streamlit Community Cloud, put it in the app's
+                     Secrets (Manage app > Settings > Secrets), never in
+                     the repository: the repository is PUBLIC.
+                     SAGE_OPENAI_STORE (default 0): OpenAI does not retain
+                     Sage's requests/responses. Set 1 only if approved.
+
+3. Access control (ON by default)
+---------------------------------
+    Need_Password       The sign-in gate is ON unless set to exactly 0, false,
+                        no or off. Any other value, or no value, keeps it ON.
+    SAGE_PASSWORD_HASH  The password, stored as a salted hash. Generate it with:
+                            python -m utils.auth
+                        and paste the printed SAGE_PASSWORD_HASH=... line into
+                        .env or secrets. The password itself is never stored.
+                        The value contains "$" characters, which shells treat as
+                        variables. Always use SINGLE quotes (double quotes still
+                        expand "$" and silently corrupt the hash):
+                          PowerShell: $env:SAGE_PASSWORD_HASH = 'scrypt$...'
+                          bash/zsh:   export SAGE_PASSWORD_HASH='scrypt$...'
+                          cmd.exe:    set "SAGE_PASSWORD_HASH=scrypt$..."
+                        Check with  echo $env:SAGE_PASSWORD_HASH  (PowerShell):
+                        it must print the whole value. In .env, no quotes are
+                        needed. A corrupted value shows "not configured" in the
+                        browser and "SAGE_PASSWORD_HASH is malformed" in the
+                        terminal.
+    SAGE_ADMIN_PASSWORD_HASH
+                        Optional SECOND password for administrators (e.g. a
+                        lecturer). Generate it with:
+                            python -m utils.auth --admin
+                        Use a different password from the general one. With
+                        TECHNICAL_DETAILS=1, people who sign in with the admin
+                        password see "Show technical details" and can change the
+                        AI model; people using the general password see neither.
+                        Same quoting rules as SAGE_PASSWORD_HASH.
+    Sage_Password       No longer accepted (plaintext). Use SAGE_PASSWORD_HASH.
+
+There is no built-in password. With the gate ON and neither setting present,
+Sage shows "not configured" and lets nobody in.
+
+For local development only, you may switch the gate off:
+    Need_Password=0
+
+Session and lock-out settings (optional):
+    SAGE_SESSION_IDLE_MINUTES       Lock after inactivity, keeping the work (default 60)
+    SAGE_SESSION_MAX_HOURS          Sign out regardless of activity (default 8)
+    SAGE_AUTH_MAX_FAILURES          Failures before a lock-out (default 5)
+    SAGE_AUTH_LOCK_SECONDS          First lock-out; doubles each time (default 30)
+    SAGE_AUTH_GLOBAL_FAILURE_LIMIT  Failures from all clients in 10 minutes that
+                                    pause every login for 60 s (default 100;
+                                    0 disables this circuit breaker)
+
+Single sign-on (recommended beyond a small pilot):
+    SAGE_AUTH_MODE=oidc             Use your identity provider instead of a password.
+    SAGE_OIDC_ALLOWED_DOMAINS       Comma list, e.g. agency.gov.sg
+    SAGE_OIDC_ALLOWED_EMAILS        Comma list of individual addresses.
+    SAGE_OIDC_PROVIDER              Provider name if [auth] defines several.
+    SAGE_OIDC_ALLOW_ANY_USER=1      Accept ANY account the provider signs in.
+                                    Almost never correct; off by default.
+    SAGE_ADMIN_EMAILS               Comma list of people who see administrator
+                                    controls (with TECHNICAL_DETAILS=1). Nobody
+                                    else does, even when the flag is on.
+    SAGE_OIDC_TRUST_UNVERIFIED_EMAIL=1  Accept identities whose token has NO
+                                    email_verified claim (e.g. Microsoft Entra ID).
+                                    Only for a single-tenant provider whose e-mail
+                                    attribute users cannot edit. Off by default.
+At least one allow-list is required (fail closed). The provider must verify
+the e-mail address. Install the extra dependency and configure Streamlit's
+[auth] section in secrets (see .streamlit/secrets.toml.example):
+    pip install -r requirements-sso.txt
+Session idle/absolute limits above also apply in this mode.
+
+4. Run
+------
+    python -m streamlit run app.py
+
+5. Abuse and cost limits (optional)
+-----------------------------------
+    SAGE_SESSION_REQUESTS_PER_MINUTE   Questions per browser session (default 12)
+    SAGE_CLIENT_REQUESTS_PER_MINUTE    Questions per client address (default 30)
+    SAGE_MAX_PARALLEL_MODEL_CALLS      Concurrent model calls per process (default 4)
+    SAGE_MODEL_QUEUE_WAIT_SECONDS      Wait for a free model slot (default 20)
+    SAGE_MAX_TOKENS_PER_QUESTION       Reported-token budget per question (default 75000)
+    SAGE_MAX_MODEL_CALLS_PER_QUESTION  Model calls per question (default 12)
+    SAGE_MAX_TOOL_ITERATIONS           Tool-use rounds per question (default 10)
+For the three budgets, 0 turns that guard off. Do not do this in production.
+These limits are per Python process. Put a rate limit at your reverse proxy
+or WAF as well (see SECURITY.md).
+
+    SAGE_CLIENT_IP_HEADER   Behind your own reverse proxy only: the header that
+                            proxy sets with the visitor's address, e.g.
+                            X-Forwarded-For. Leave unset otherwise; without a
+                            proxy that rewrites it, anyone can forge the header.
+
+6. Diagnostics (trusted operators only)
+---------------------------------------
+    TECHNICAL_DETAILS=1        Shows operator notes and administrator controls
+                               (model choice, question-bank rebuild). In password
+                               mode EVERY signed-in user gets them, so keep it off
+                               in production; in SSO mode only SAGE_ADMIN_EMAILS.
+    SAGE_FULL_DEBUG_LOG=1      Writes fuller per-question diagnostics to debug.txt.
+    SAGE_ALLOW_ADMIN_TESTS=1   Permits:  streamlit run app.py -- --debug
+                                    or:  streamlit run app.py -- --test
+                               Set this in the real process environment; it is
+                               checked before .env is read, by design.
+
+Privacy and retention (Singapore PDPA):
+    SAGE_LOG_RETENTION_DAYS        Question-log entries older than this are deleted,
+                                   and old debug.txt rotations expire (default 30;
+                                   0 disables retention, not recommended).
+    SAGE_DEBUG_LOG_MAX_MB          Rotate debug.txt above this size (default 10).
+                                   debug.txt entries older than the retention
+                                   period are also removed.
+    SAGE_LOG_MANUAL_QUESTION_TEXT  1 = store visitors' own wording in failed.txt /
+                                   success.txt. Default 0: a keyed pseudonym is
+                                   stored instead. Sample-bank questions are always
+                                   stored verbatim (they contain no personal data).
+    SAGE_LOG_PSEUDONYM_KEY         Key for those pseudonyms. If unset, one is
+                                   generated into .sage_log_key (owner-only).
+    SAGE_LOG_KEY_FILE              Alternative location for that key file.
+    SAGE_DEBUG_LOG_FILE            Alternative location for debug.txt.
+Set the last two in the real process environment (they are read at start-up,
+before .env). On Streamlit Community Cloud, set SAGE_LOG_PSEUDONYM_KEY in the
+app's Secrets so pseudonyms stay stable across restarts.
+
+All of these files are created readable by the service account only. Keep
+them out of archives and tickets.
+
+7. Tests
+--------
+    python -m unittest discover -s tests
+
+8. Developer safeguards
+-----------------------
+    pip install pre-commit && pre-commit install
+blocks commits that contain secrets or visitor logs. The same scan runs offline:
+    python tools/check_secrets.py
+CI (.github/workflows/security.yml) runs the scan, the tests and pip-audit.
+Create the hash-pinned lock file with network access (see requirements.in). Use uv's
+universal mode so the same lock installs on Windows, macOS and Linux (CI, Streamlit Cloud):
+    python -m pip install uv
+    uv pip compile requirements.in --universal --generate-hashes --python-version 3.14 -o requirements.lock
+Do NOT use pip-compile on Windows for this: it resolves for Windows only and leaves out
+Linux-only packages (for example uvloop), so CI fails with "must have their versions
+pinned with ==".
+
+Speed: SAGE_REASONING_EFFORT (optional; unset = the model's own default)
+    low       noticeably faster answers; usually good enough for Sage's tasks
+    minimal   fastest, but weaker at choosing the right table
+    medium / high   slower, more thorough
+Only GPT-5-family models use it. A value OpenAI rejects is dropped automatically
+(one retry, a warning in the log). Try "low" for a week and compare answers.
+
+9. Deployment (Streamlit Community Cloud only)
+---------------------------------------------
+Sage is deployed from its PUBLIC GitHub repository to Streamlit Community Cloud.
+    * Secrets (OpenAI key, password hashes, pseudonym key) live ONLY in the app's
+      Secrets on Streamlit Cloud -- never in the repository or its history.
+    * Streamlit Cloud installs from requirements.txt (Streamlit is pinned there).
+    * Under Manage app > Settings > Sharing, prefer "Only specific people can view
+      this app"; the Sage password then adds a second layer.
+    * After each deploy, the log should show "security self-check: 0 findings".
+
+10. Making a release archive
+----------------------------
+Use version control, so ignored files (secrets, logs) cannot be included:
+    git archive --format=zip -o sage-release.zip HEAD
+
+START FROM THE SAGE FOLDER
+    Streamlit reads .streamlit/config.toml (Sage's colours, security settings)
+    from the folder you START it in. Always:
+        cd C:\sage            (your Sage folder)
+        streamlit run app.py
+    Started from another folder, dropdowns turn black in dark mode and the
+    security settings in config.toml are NOT applied.
+    If colours still look dark: open Streamlit's menu (top-right, three dots)
+    > Settings > Theme, and choose "Use system setting" or the custom theme.
+
+11. Tests and the "same rules for every table" guard
+----------------------------------------------------
+Run all unit tests (no browser, network or OpenAI key needed):
+    python -m unittest discover -s tests
+tests/test_no_table_specific_code.py fails if code starts treating one table or
+subject differently: hard-coded table IDs, statistics typed into code, the UI
+calling private (_underscore) functions of utils/core_secure.py, or subject words
+inside the modules that decide what is shown.
+
+To teach Sage a new everyday word (e.g. that "hawker" means "food centre"), add
+it to utils/vocabulary.py. Never add an "if the question mentions X" branch.
+
+Before and after a refactor, prove behaviour is unchanged. Each tool runs one
+copy of Sage with stand-ins (no browser, network or OpenAI key):
+    python tools/characterise_page.py OLD_SAGE_FOLDER > old.txt       (whole page)
+    python tools/characterise_page.py .               > new.txt       (compare last lines)
+    python tools/characterise_process_question.py OLD_SAGE_FOLDER old.json
+    python tools/characterise_process_question.py .               new.json
+    python tools/characterise_process_question.py --compare old.json new.json
+    python tools/characterise_ask_sage.py OLD_SAGE_FOLDER old.json  (the tool loop)
+    python tools/characterise_ask_sage.py .               new.json
+    python tools/characterise_ask_sage.py --compare old.json new.json
+    python tools/characterise_query_table.py OLD_SAGE_FOLDER          (1,500 random tables;
+    python tools/characterise_query_table.py .                         same digest = same)
+    python tools/characterise_audit_rows.py OLD_SAGE_FOLDER           (3,000 random audits)
+    python tools/characterise_audit_rows.py .
+    python tools/characterise_download.py OLD_SAGE_FOLDER             (1,500 fake servers)
+    python tools/characterise_build_chart.py OLD_SAGE_FOLDER          (2,000 chart specs)
+    python tools/characterise_answer_checks.py OLD_SAGE_FOLDER        (real answers, 167 cases)
+    python tools/characterise_lightweight_chart.py OLD_SAGE_FOLDER    (1,500 Altair charts)
+    python tools/characterise_scoped_preview.py OLD_SAGE_FOLDER       (7,680 preview decisions)
+    python tools/characterise_composition.py OLD_SAGE_FOLDER          (3,000 composition charts)
+    (run each again with "." and compare the printed digests)
+
+13. Making a release zip
+------------------------
+    python tools/package_release.py ../SAGE-release.zip
+Leaves out secrets (.env, secrets.toml, .sage_log_key), question logs,
+debug.txt, databases and caches, and prints what it left out. Never zip the
+folder by hand: it would include those files.
+
+Module docstrings end with "Used by:" / "Tested in:" lines generated from the
+real imports. After moving code, refresh them:  python tools/module_map.py --fix
+(tests/test_module_map.py fails while they are out of date).
+
+12. Where things are
+--------------------
+    app.py        the page, top to bottom (start reading here)
+    ui/           one module per part of the page (sidebar, question box,
+                  answer pipeline, answer view, table explorer, ...)
+    utils/        everything that does not need Streamlit: the analytical
+                  core (core_secure.py), answer and chart checks, discovery,
+                  data store, vocabulary.py (the only place for subject words)
+                  and schemas.py (the shape of every dict passed between layers)
+    assets/       sage_theme.css (the page look) and images
+    tests/        unit tests and the "same rules for every table" guard
+    tools/        operator scripts, regression baselines (baseline_*.py) and
+                  behaviour-characterisation scripts (characterise_*.py)
+
+14. Quality checks (run before every release; CI runs them too)
+---------------------------------------------------------------
+    python -m unittest discover -s tests          # 137 tests incl. 12 golden behaviour checks
+    python tools/coverage_report.py --behaviour   # line coverage (CI requires >= 55%)
+    python tools/module_map.py                    # "Used by" notes match the imports
+If a golden behaviour check fails after an INTENDED change, review it, then
+    python tools/behaviour_digests.py --update
+One-off formatting (needs internet for "pip install ruff"; commit it on its own):
+    pip install ruff==0.6.9
+    ruff format app.py ui utils tools tests
+    python -m unittest discover -s tests          # must still pass: formatting changes layout only
+
+15. Formatting
+--------------
+ruff format is the project formatter; CI fails if a file is not formatted:
+    pip install ruff==0.6.9
+    ruff format app.py ui utils tools tests
+Run it after unpacking any update, then commit. Long text strings and
+comments are not wrapped by ruff; the helper below does that safely (it only
+changes layout, and refuses any edit that would change the code), so the usual
+order is: tidy_spacing, then ruff format.
+
+15b. Spacing and long strings (optional helper, works offline)
+------------------------------------------
+    python tools/tidy_spacing.py --check app.py ui/*.py utils/*.py tools/*.py tests/*.py
+    python tools/tidy_spacing.py app.py ui/*.py utils/*.py tools/*.py tests/*.py
+Adds missing spaces, wraps long code, comment and docstring lines, and splits
+long text strings into adjacent pieces ("abc " "def" is the same string). A file is only
+rewritten if it parses to exactly the same code as before, so this can never
+change behaviour. CI runs the --check form. "ruff format" (section 14) is
+still the long-term formatter once it can be installed.

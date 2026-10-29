@@ -1,0 +1,1095 @@
+/* Sage page theme: injected by utils/sage_design.install_design_system().
+ *
+ * This file is a string.Template: ${name} placeholders are filled from the
+ * active theme in utils/sage_design.THEMES (colours, fonts, radius, shadow)
+ * plus base_size, hero_size, button_height and button_ink computed in
+ * utils/sage_design._style_for(). Literal dollar signs must be written "$$".
+ * Edit the look here; no Python change is needed.
+ */
+:root {
+    --sage-bg: ${bg};
+    --sage-bg-soft: ${bg_soft};
+    --sage-surface: ${surface};
+    --sage-surface-alt: ${surface_alt};
+    --sage-surface-tint: ${surface_tint};
+    --sage-text: ${text};
+    --sage-muted: ${muted};
+    --sage-accent: ${accent};
+    --sage-on-accent: ${button_ink};
+    --sage-accent-2: ${accent_2};
+    --sage-accent-soft: ${accent_soft};
+    --sage-line: ${line};
+    --sage-hero-from: ${hero_from};
+    --sage-hero-to: ${hero_to};
+    --sage-hero-glow: ${hero_glow};
+    --sage-sidebar-bg: ${sidebar_bg};
+    --sage-sidebar-text: ${sidebar_text};
+    --sage-shadow: ${shadow};
+    --sage-radius: ${radius};
+    --sage-font: ${font};
+    --sage-display: ${display};
+    --sage-base-size: ${base_size};
+    --sage-hero-size: ${hero_size};
+    --sage-button-height: ${button_height};
+}
+/* Avoid document-height gradients. The canvas can become tens of
+   thousands of pixels tall after a verified answer is displayed;
+   gradients on that surface can overwhelm some mobile compositors. */
+html, body {
+    background: var(--sage-bg) !important;
+}
+[data-testid="stAppViewContainer"], [data-testid="stApp"] {
+    background: var(--sage-bg) !important;
+    color: var(--sage-text);
+    font-family: var(--sage-font);
+    font-size: var(--sage-base-size);
+}
+[data-testid="stHeader"] { background: transparent !important; }
+[data-testid="stToolbar"] { right: .7rem; }
+[data-testid="stDecoration"] { background: transparent !important; }
+[data-testid="stMain"] { background: transparent; }
+[data-testid="stMainBlockContainer"] { max-width: 100%; }
+[data-testid="stMain"] .block-container {
+    padding: 1.15rem 1.2rem 3.8rem !important;
+    max-width: 1180px !important;
+}
+[data-testid="stMain"] h1, [data-testid="stMain"] h2, [data-testid="stMain"] h3 {
+    color: var(--sage-text) !important;
+    letter-spacing: -0.02em;
+}
+/* Streamlit's light-mode default text must not disappear on dark themes. */
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] { color:var(--sage-text) !important; }
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] :is(p,li,h1,h2,h3,h4,td,th,strong,em) {
+    color:var(--sage-text) !important;
+}
+[data-testid="stMain"] [data-testid="stWidgetLabel"] p { color:var(--sage-text) !important; }
+[data-testid="stMain"] [data-testid="stCaptionContainer"] p { color:var(--sage-muted) !important; }
+[data-testid="stMain"] [data-baseweb="select"] > div,
+[data-testid="stMain"] [data-testid="stTextInput"] input {
+    background:var(--sage-surface-alt) !important;
+    border-color:var(--sage-line) !important;
+    color:var(--sage-text) !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] :is(span,input,svg) {
+    color:var(--sage-text) !important;
+}
+[data-testid="stMain"] a { color: var(--sage-accent) !important; text-decoration-thickness: 1px; }
+[data-testid="stMain"] [data-testid="stAlert"] {
+    background:var(--sage-surface-alt) !important;
+    color:var(--sage-text) !important;
+    border:1px solid var(--sage-line) !important;
+    border-left:3px solid var(--sage-accent) !important;
+    border-radius:14px !important;
+}
+[data-testid="stMain"] hr { border-color: var(--sage-line); opacity: .9; }
+
+[data-testid="stSidebar"] {
+    background: var(--sage-sidebar-bg) !important;
+    border-right: 1px solid rgba(255,255,255,.08) !important;
+}
+[data-testid="stSidebar"] > div { background: transparent !important; }
+[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] { padding: 1.4rem 1rem 2rem !important; }
+[data-testid="stSidebar"] :is(p,label,li,h1,h2,h3,small,div[data-testid="stCaptionContainer"], div) { color: var(--sage-sidebar-text) !important; }
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p { color: rgba(255,255,255,.78) !important; }
+[data-testid="stSidebar"] hr { border-color: rgba(255,255,255,.12) !important; }
+[data-testid="stSidebar"] [data-baseweb="select"] > div,
+[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] > div {
+    background: rgba(255,255,255,.10) !important;
+    border-color: rgba(255,255,255,.18) !important;
+    color: var(--sage-sidebar-text) !important;
+    border-radius: 14px !important;
+    min-height: 44px !important;
+}
+[data-testid="stSidebar"] [data-baseweb="select"] span,
+[data-testid="stSidebar"] [data-baseweb="select"] input,
+[data-testid="stSidebar"] [data-baseweb="select"] svg { color: var(--sage-sidebar-text) !important; fill: var(--sage-sidebar-text) !important; }
+[data-testid="stSidebar"] [data-testid="stButton"] button {
+    min-height: 42px !important;
+    border-radius: 14px !important;
+    font-weight: 600 !important;
+    border: 1px solid rgba(255,255,255,.16) !important;
+    background: rgba(255,255,255,.10) !important;
+    color: var(--sage-sidebar-text) !important;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+[data-testid="stSidebar"] [data-testid="stButton"] button:hover:not(:disabled) {
+    background: rgba(255,255,255,.18) !important;
+    border-color: rgba(255,255,255,.28) !important;
+    transform: translateY(-1px);
+}
+[data-testid="stSidebar"] .st-key-sage_random_question button {
+    background: linear-gradient(135deg, var(--sage-accent-2), var(--sage-accent)) !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+    box-shadow: 0 10px 28px rgba(0,0,0,.14);
+}
+[data-testid="stSidebar"] .stMarkdown strong {
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: .76rem;
+    font-weight: 700;
+}
+
+.sage-sidebrand {
+    padding: .2rem 0 1.1rem;
+}
+.sage-sidebrand__eyebrow {
+    font-size: .66rem;
+    font-weight: 700;
+    letter-spacing: .20em;
+    opacity: .9;
+    margin-bottom: .85rem;
+}
+.sage-sidebrand__top { display: flex; align-items: center; gap: .85rem; }
+.sage-sidebrand__mark {
+    width: 46px; height: 46px; display: grid; place-items: center;
+    border-radius: 15px;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.16);
+    color: #ffffff;
+    font-family: var(--sage-display);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.sage-sidebrand__name {
+    font-family: var(--sage-display);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    line-height: 1;
+}
+.sage-sidebrand__line { height: 1px; margin: 1rem 0 .9rem; background: linear-gradient(90deg, rgba(255,255,255,.45), rgba(255,255,255,0)); }
+.sage-sidebrand__caption { font-size: .85rem; line-height: 1.55; opacity: .84; max-width: 16rem; }
+.sage-sidebrand__pill {
+    display: inline-flex; align-items: center; gap: .4rem;
+    padding: .35rem .7rem; border-radius: 999px;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.16);
+    font-size: .78rem; margin-top: .9rem;
+}
+.sage-theme-helper {
+    padding: .75rem .9rem; border-radius: 14px; margin: .45rem 0 1rem;
+    background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.14);
+    font-size: .83rem; line-height: 1.5;
+}
+
+.sage-hero {
+    position: relative;
+    overflow: hidden;
+    margin: .2rem 0 1.4rem;
+    padding: 2.2rem 2.3rem;
+    min-height: 265px;
+    border-radius: calc(var(--sage-radius) + 2px);
+    background:
+        radial-gradient(circle at 80% 18%, rgba(255,255,255,.12), transparent 22%),
+        radial-gradient(circle at 68% 68%, var(--sage-hero-glow), transparent 35%),
+        linear-gradient(135deg, var(--sage-hero-from), var(--sage-hero-to));
+    box-shadow: var(--sage-shadow);
+    color: #ffffff;
+}
+.sage-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(240px, .9fr);
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+.sage-hero__eyebrow {
+    display: inline-flex; align-items: center; gap: .6rem;
+    font-size: .70rem; letter-spacing: .20em; text-transform: uppercase;
+    opacity: .88; margin-bottom: 1rem; font-weight: 700;
+}
+.sage-hero__eyebrow:before { content: ""; display: block; width: 26px; height: 1px; background: rgba(255,255,255,.64); }
+.sage-hero h1 {
+    margin: 0 0 .75rem !important;
+    color: #ffffff !important;
+    font-family: var(--sage-display);
+    font-size: clamp(3rem, 7vw, var(--sage-hero-size)) !important;
+    line-height: .96 !important;
+    letter-spacing: -.06em !important;
+    font-weight: 700 !important;
+}
+.sage-hero__sub {
+    margin: 0; max-width: 36rem;
+    color: rgba(255,255,255,.90); line-height: 1.6; font-size: 1rem;
+}
+.sage-hero__bottom {
+    display: inline-flex; align-items: center; gap: .55rem;
+    margin-top: 1.25rem; padding: .45rem .75rem; border-radius: 999px;
+    background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.12);
+    font-size: .78rem; color: rgba(255,255,255,.92);
+}
+.sage-hero__visual { max-width: 380px; justify-self: end; opacity: .95; }
+.sage-hero__visual svg { width: 100%; height: auto; display: block; }
+
+.st-key-sage_question_layout,
+.st-key-sage_answer_surface {
+    background: var(--sage-surface) !important;
+    border: 1px solid var(--sage-line) !important;
+    border-radius: var(--sage-radius) !important;
+    box-shadow: var(--sage-shadow) !important;
+}
+.st-key-sage_question_layout {
+    padding: 1.35rem 1.5rem 1.15rem !important;
+    margin-bottom: 1.25rem !important;
+}
+.st-key-sage_answer_surface {
+    padding: 1.45rem 1.5rem 1.6rem !important;
+    margin: .75rem 0 1.1rem !important;
+    overflow-wrap: break-word;
+    /* A large translucent shadowed pane spanning charts/tables can
+       force expensive GPU compositing during mobile scrolling. */
+    background: var(--sage-surface-alt) !important;
+    box-shadow: none !important;
+}
+.st-key-sage_question_layout .sage-field-label {
+    display: flex; align-items: center; gap: .55rem;
+    margin-bottom: .85rem !important;
+    color: var(--sage-text) !important;
+    font-size: .93rem !important; letter-spacing: .12em !important; text-transform: uppercase !important; font-weight: 700 !important;
+}
+.st-key-sage_question_layout .sage-field-label:before {
+    content: ""; width: 10px; height: 10px; border-radius: 3px; transform: rotate(45deg);
+    background: linear-gradient(135deg, var(--sage-accent-2), var(--sage-accent));
+}
+/* While Sage is working (the processing bar is on the page) the diamond hops,
+   turns and alternates green <-> gold. CSS only: it runs even while Python is
+   busy, and stops by itself the moment the bar is removed, i.e. when the
+   answer appears -- so it can never get stuck. */
+@keyframes sage-diamond-thinking {
+    0%, 100% { transform: translateY(0) rotate(45deg) scale(1); background-color: var(--sage-accent); }
+    25%      { transform: translateY(-3px) rotate(135deg) scale(1.15); }
+    50%      { transform: translateY(0) rotate(225deg) scale(1); background-color: #e3a62f; }
+    75%      { transform: translateY(-3px) rotate(315deg) scale(1.15); }
+}
+.stApp:has(.sage-processing) .st-key-sage_question_layout .sage-field-label:before {
+    background-image: none;
+    background-color: var(--sage-accent);
+    animation: sage-diamond-thinking 1.6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+    /* Motion-sensitive visitors: colour change only, no hopping or turning. */
+    @keyframes sage-diamond-thinking-still {
+        0%, 100% { background-color: var(--sage-accent); }
+        50% { background-color: #e3a62f; }
+    }
+    .stApp:has(.sage-processing) .st-key-sage_question_layout .sage-field-label:before {
+        animation-name: sage-diamond-thinking-still;
+    }
+}
+.st-key-sage_question_layout [data-testid="stTextArea"] textarea,
+.st-key-sage_question_readonly [data-testid="stCode"] pre {
+    /* Grow with the question: 164px is a minimum, not a fixed size. Streamlit sizes
+       the box to its content (height="content"); field-sizing does the same in
+       browsers that support it. Very long text scrolls inside a 60%-of-screen cap. */
+    min-height: 164px !important; max-height: 60vh !important;
+    field-sizing: content; overflow-y: auto !important;
+    border-radius: 16px !important;
+    border: 1px solid var(--sage-line) !important;
+    background: var(--sage-surface-tint) !important;
+    color: var(--sage-text) !important;
+    padding: 1rem 1rem !important;
+    line-height: 1.65 !important;
+    font-size: 1.07rem !important;
+}
+.st-key-sage_question_readonly [data-testid="stCode"] pre {
+    height: auto !important;
+    white-space: pre-wrap !important; overflow-wrap: anywhere !important;
+}
+.st-key-sage_question_readonly [data-testid="stCode"] code {
+    white-space: pre-wrap !important; overflow-wrap: anywhere !important;
+}
+.st-key-sage_question_readonly [data-testid="stCode"] code,
+.st-key-sage_question_readonly [data-testid="stCode"] span {
+    color: var(--sage-text) !important;
+    font-family: var(--sage-font) !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+.st-key-sage_question_layout textarea::placeholder { color: var(--sage-muted) !important; opacity: .88; }
+.st-key-sage_question_layout [data-testid="stTextArea"] textarea:focus,
+[data-testid="stMain"] button:focus-visible,
+[data-testid="stSidebar"] button:focus-visible {
+    outline: 2px solid var(--sage-accent) !important;
+    outline-offset: 2px !important;
+}
+
+[data-testid="stMain"] [data-testid="stButton"] button,
+[data-testid="stMain"] [data-testid="stFormSubmitButton"] button,
+[data-testid="stMain"] [data-testid="stDownloadButton"] button,
+[data-testid="stMain"] [data-testid="stLinkButton"] a {
+    min-height: var(--sage-button-height) !important;
+    border-radius: 14px !important;
+    font-weight: 600 !important;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+[data-testid="stMain"] button:hover:not(:disabled) { transform: translateY(-1px); }
+[data-testid="stMain"] button[kind="primary"],
+[data-testid="stMain"] button[data-testid="stBaseButton-primary"] {
+    background: linear-gradient(135deg, var(--sage-accent-2), var(--sage-accent)) !important;
+    border: none !important; color: #ffffff !important;
+    box-shadow: 0 10px 28px rgba(0,0,0,.10) !important;
+}
+[data-testid="stMain"] button[kind="secondary"],
+[data-testid="stMain"] button[data-testid="stBaseButton-secondary"] {
+    background: var(--sage-surface-alt) !important;
+    color: var(--sage-text) !important;
+    border: 1px solid var(--sage-line) !important;
+}
+.st-key-sage_question_layout :is(.st-key-sage_question_submit,.st-key-sage_question_modify,.st-key-sage_question_clear_edit,.st-key-sage_question_clear_view) button {
+    width: 100% !important;
+    min-height: 60px !important;
+}
+
+.sage-response-heading {
+    display: flex; align-items: center; gap: .75rem;
+    font-size: 1.25rem !important; font-weight: 700 !important;
+    margin: 0 0 .95rem !important; color: var(--sage-text) !important;
+}
+.sage-response-heading .sage-response-dot {
+    width: 30px; height: 30px; border-radius: 10px; display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--sage-accent-soft), rgba(255,255,255,.08));
+}
+.sage-response-heading .sage-response-dot:after { content: "✦"; color: var(--sage-accent); font-size: 18px; }
+.sage-query-check, .sage-processing {
+    background: var(--sage-surface-tint);
+    border: 1px solid var(--sage-line);
+    border-left: 3px solid var(--sage-accent);
+    border-radius: 16px;
+    padding: .9rem 1rem;
+}
+.sage-processing-track { height: 4px !important; background: rgba(0,0,0,.08) !important; border-radius: 999px; overflow: hidden; }
+.sage-processing-sweep { background: linear-gradient(90deg, var(--sage-accent), var(--sage-accent-2)) !important; border-radius: 999px; }
+[data-testid="stMain"] [data-testid="stExpander"] { border: 1px solid var(--sage-line) !important; border-radius: 16px !important; }
+[data-testid="stMain"] [data-testid="stDataFrame"],
+[data-testid="stMain"] [data-testid="stTable"],
+[data-testid="stMain"] [data-testid="stPlotlyChart"],
+[data-testid="stMain"] [data-testid="stVegaLiteChart"],
+[data-testid="stMain"] [data-testid="stImage"] {
+    border-radius: 16px; overflow: hidden;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] table {
+    width: 100%; border-collapse: separate; border-spacing: 0; display: block;
+    overflow-x: auto; border: 1px solid var(--sage-line); border-radius: 16px;
+    background: var(--sage-surface-alt);
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] table th,
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] table td {
+    padding: .72rem .85rem; border-bottom: 1px solid var(--sage-line);
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] table th {
+    background: var(--sage-surface-tint); color: var(--sage-text); font-weight: 700;
+}
+
+.st-key-sage_answer_surface p, .st-key-sage_answer_surface li, .sage-readable-table {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+@media (max-width: 900px) {
+    [data-testid="stMain"] .block-container { padding: .8rem .85rem 3rem !important; }
+    .sage-hero { padding: 1.55rem 1.25rem; min-height: 220px; margin-bottom: 1rem; }
+    .sage-hero__grid { grid-template-columns: 1fr; gap: .9rem; }
+    .sage-hero__visual { max-width: 240px; justify-self: start; opacity: .72; }
+    .st-key-sage_question_layout { padding: 1rem .95rem .9rem !important; border-radius: 18px !important; }
+    .st-key-sage_answer_surface { padding: 1.1rem .95rem 1.25rem !important; border-radius: 18px !important; }
+    .st-key-sage_question_layout [data-testid="stHorizontalBlock"] { flex-direction: column !important; gap: .7rem !important; }
+    .st-key-sage_question_layout [data-testid="column"] { width: 100% !important; flex: 1 1 100% !important; min-width: 0 !important; }
+    .st-key-sage_question_layout [data-testid="stTextArea"] textarea,
+    .st-key-sage_question_readonly [data-testid="stCode"] pre { min-height: 132px !important; max-height: 60vh !important; }
+    .st-key-sage_question_layout .st-key-sage_question_controls > [data-testid="stVerticalBlock"],
+    .st-key-sage_question_layout .st-key-sage_question_controls > div > [data-testid="stVerticalBlock"] { display: flex !important; flex-direction: row !important; gap: .55rem !important; }
+    .st-key-sage_question_layout .st-key-sage_question_controls [data-testid="stFormSubmitButton"],
+    .st-key-sage_question_layout .st-key-sage_question_controls [data-testid="stButton"] { flex: 1 1 0 !important; min-width: 0 !important; }
+    .st-key-sage_question_layout :is(.st-key-sage_question_submit,.st-key-sage_question_modify,.st-key-sage_question_clear_edit,.st-key-sage_question_clear_view) button { min-height: 48px !important; }
+}
+@media (max-width: 460px) {
+    .sage-hero h1 { font-size: 3rem !important; }
+    .sage-hero__sub { font-size: 1rem; }
+    [data-testid="stSidebar"] [data-testid="stSidebarUserContent"] { padding: 1rem .8rem 1.6rem !important; }
+}
+
+/* Round 2: all answer text and table cells wrap instead of disappearing. */
+.st-key-sage_answer_surface [data-testid="stMarkdownContainer"],
+.st-key-sage_answer_surface [data-testid="stMarkdownContainer"] :is(p,li,td,th) {
+    white-space: normal !important;
+    /* break-word, not anywhere: "anywhere" also shrinks table columns to one letter,
+       which split short words like "embeddings" across lines. */
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+}
+.st-key-sage_answer_surface [data-testid="stMarkdownContainer"] table {
+    display: table !important;
+    table-layout: fixed !important;
+    width: 100% !important;
+    max-width: 100%;
+}
+.sage-readable-table-scroller {
+    overflow-x: auto;
+    max-width: 100%;
+    border: 1px solid var(--sage-line);
+    border-radius: 16px;
+    background: var(--sage-surface-alt);
+}
+.sage-readable-table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 320px;
+    /* Columns size to their content: a short word such as "embeddings" is never
+       split across lines; long text still wraps between words. */
+    table-layout: auto;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: var(--sage-text);
+}
+.sage-readable-table :is(th, td) {
+    text-align: left;
+    vertical-align: top;
+    /* Break inside a word only when a single word is wider than the whole table. */
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: manual;
+    white-space: pre-wrap;
+    padding: .8rem .9rem;
+    border-bottom: 1px solid var(--sage-line);
+}
+.sage-readable-table th { background: var(--sage-surface-tint); font-weight: 750; }
+.sage-readable-table tbody tr:last-child td { border-bottom: 0; }
+.sage-readmore { color:var(--sage-muted); font-size: 1rem; margin:.45rem 0; }
+.sage-landing-section { margin: -.3rem 0 1.15rem; }
+.sage-landing-cards { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; }
+.sage-landing-card {
+    display:flex; align-items:center; gap: 1rem;
+    padding: 1.05rem 1.12rem;
+    background: var(--sage-surface-alt);
+    border: 1px solid var(--sage-line);
+    border-radius: calc(var(--sage-radius) - 5px);
+    box-shadow: 0 5px 22px rgba(0,0,0,.025);
+    min-width:0;
+}
+.sage-landing-card__icon {
+    display: grid; place-items: center; flex: 0 0 41px;
+    height:41px; border-radius:13px;
+    background:var(--sage-accent-soft);
+    color:var(--sage-accent);
+    font-size:1.2rem;
+}
+.sage-landing-card__title { color:var(--sage-text); font-weight:800; font-size:.88rem; letter-spacing:-.015em; margin:0 0 .24rem; }
+.sage-landing-card__desc { color:var(--sage-muted); font-size:.78rem; line-height:1.4; margin:0; }
+.sage-hero__kicker {
+    color: #fff;
+    font-size: clamp(1.0rem,1.8vw,1.35rem);
+    line-height:1.5;
+    opacity:.98;
+    margin:.2rem 0 .75rem;
+    font-weight:650;
+    max-width:29rem;
+}
+.sage-hero__caption { position:absolute; right:2rem; bottom:1.1rem; font-size:.82rem; color:rgba(255,255,255,.65); }
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] { min-width:0; }
+@media (max-width:900px) {
+    .sage-landing-cards { grid-template-columns: repeat(3,minmax(0,1fr)); gap:8px; }
+    .sage-landing-card { padding:.76rem .66rem; gap:.52rem; }
+    .sage-landing-card__icon { flex-basis:34px; height:34px; border-radius:10px; }
+    .sage-landing-card__title { font-size:1.0rem; }
+    .sage-landing-card__desc { font-size:.88rem; }
+    .sage-hero__caption { display:none; }
+}
+@media (max-width:600px) {
+    /* On phones, transform long official tables into readable rows. */
+    .sage-readable-table { min-width:0; width:100%; }
+    .sage-readable-table thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+    .sage-readable-table :is(tbody,tr,td) { display:block; width:100%; box-sizing:border-box; }
+    .sage-readable-table tbody tr { padding:.65rem .75rem; border-bottom:1px solid var(--sage-line); }
+    .sage-readable-table tbody tr:last-child { border-bottom:0; }
+    .sage-readable-table td { padding:.36rem .05rem; border:0; overflow-wrap:break-word; }
+    .sage-readable-table td:before {
+        content:attr(data-label); display:block;
+        font-size:.82rem; font-weight:800; text-transform:uppercase;
+        letter-spacing:.08em; color:var(--sage-muted); margin-bottom:.14rem;
+    }
+    .sage-hero__visual { display:block; position:absolute; width:150px; top:0; right:-36px; opacity:.16; pointer-events:none; }
+    .sage-hero { min-height:210px; }
+    .sage-landing-cards { grid-template-columns:1fr 1fr; }
+    .sage-landing-card:nth-child(3) { grid-column:1/-1; }
+    .sage-landing-card__desc { font-size:.85rem; }
+    .sage-hero__bottom { margin-top:.7rem; }
+    .sage-landing-card { align-items:flex-start; }
+}
+/* Readability pass: visible contrast for every foreground/background pairing. */
+[data-testid="stMain"] [data-testid="stMarkdownContainer"],
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] :is(p, li, div, span, strong, em),
+[data-testid="stMain"] [data-testid="stCaptionContainer"],
+[data-testid="stMain"] [data-testid="stCaptionContainer"] p {
+    color: var(--sage-text) !important;
+}
+[data-testid="stMain"] [data-testid="stCaptionContainer"] p {
+    opacity: .78;
+    font-size: .95rem !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] :is(p,li) {
+    font-size: 1.05rem !important;
+    line-height: 1.76 !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] :is(h2,h3) {
+    color: var(--sage-text) !important;
+    line-height: 1.35 !important;
+}
+[data-testid="stSidebar"] :is(label, p) { font-size: 1.07rem !important; line-height: 1.55 !important; }
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p { font-size: .91rem !important; }
+.sage-readable-table-scroller,
+.sage-readable-table { user-select: text !important; -webkit-user-select: text !important; }
+.sage-readable-table th,
+.sage-readable-table td { color: var(--sage-text) !important; font-size: 1.07rem !important; }
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-readable-table { table-layout: auto !important; min-width: 0; }
+.sage-readable-table th { min-width: 7rem; }
+.sage-readable-table th,
+.sage-readable-table td { white-space: pre-wrap !important; overflow-wrap: break-word !important; }
+/* Words never split inside a table, whatever other page styles say: long text wraps
+   between words, and a table that cannot fit scrolls sideways instead. */
+.sage-readable-table-scroller .sage-readable-table :is(th, td) {
+    overflow-wrap: break-word !important; word-break: normal !important;
+}
+/* Short single-word values ("embeddings", codes, numbers) never split across lines. */
+.sage-readable-table-scroller .sage-readable-table td.sage-prose { min-width: 15rem; }
+.sage-readable-table-scroller .sage-readable-table td.sage-nowrap {
+    white-space: nowrap !important; overflow-wrap: normal !important; word-break: normal !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-hero :is(h1,p,span,div) { color: #fff !important; }
+.sage-landing-card :is(p,span) { color: var(--sage-text) !important; }
+.sage-landing-card__desc { color: var(--sage-muted) !important; font-size: .95rem !important; }
+.sage-landing-card__title { font-size: 1.05rem !important; }
+[data-testid="stVegaLiteChart"],
+[data-testid="stVegaLiteChart"] canvas,
+[data-testid="stVegaLiteChart"] svg { background: var(--sage-surface-alt) !important; }
+/* Accessible theme-coloured Streamlit toggles in sidebar and diagnostics. */
+[data-testid="stSidebar"] [data-testid="stToggle"] label,
+[data-testid="stSidebar"] [data-testid="stCheckbox"] label {
+    color:var(--sage-sidebar-text) !important;
+    cursor:pointer;
+}
+[data-testid="stSidebar"] [data-testid="stToggle"] [role="switch"],
+[data-testid="stSidebar"] [data-testid="stCheckbox"] [role="checkbox"] {
+    background:var(--sage-surface-alt) !important;
+    border:2px solid var(--sage-line) !important;
+    min-width:2.65rem; min-height:1.35rem;
+    box-shadow:0 0 0 1px rgba(0,0,0,.05);
+    opacity:1 !important;
+}
+[data-testid="stSidebar"] [data-testid="stToggle"] [role="switch"][aria-checked="true"],
+[data-testid="stSidebar"] [data-testid="stCheckbox"] [role="checkbox"][aria-checked="true"] {
+    background:var(--sage-accent) !important;
+    border-color:var(--sage-accent) !important;
+}
+[data-testid="stSidebar"] [data-testid="stToggle"] [role="switch"] :is(svg,span),
+[data-testid="stSidebar"] [data-testid="stCheckbox"] [role="checkbox"] svg {
+    color:var(--sage-text) !important;
+    fill:currentColor;
+}
+[data-testid="stSidebar"] [data-testid="stToggle"] [role="switch"]:focus-visible {
+    outline:3px solid var(--sage-accent) !important; outline-offset:3px;
+}
+/* Avoid expensive document-wide repaints after a theme switch. */
+[data-testid="stAppViewContainer"] { background-image:none !important; }
+.sage-hero, .sage-landing-card { animation:none !important; transition:none !important; }
+/* Expander headers must not switch to opaque black during scrolling. */
+[data-testid="stExpander"], [data-testid="stExpander"] details,
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] [data-testid="stExpanderDetails"] {
+    background: var(--sage-surface) !important;
+    color: var(--sage-text) !important;
+}
+[data-testid="stExpander"] summary :is(p,span,svg),
+[data-testid="stExpander"] [data-testid="stMarkdownContainer"] :is(p,span) {
+    color: var(--sage-text) !important;
+}
+.sage-onboarding-label { margin: .4rem 0 .7rem; color: var(--sage-muted);
+    font-weight: 750; letter-spacing: .09em; font-size: .8rem; }
+.sage-landing-card { cursor: default !important; transform: none !important; }
+.sage-landing-card:hover { transform: none !important; box-shadow: none !important; }
+/* Vega hover tooltips are mounted outside the chart canvas. */
+.vega-tooltip {
+    background: var(--sage-surface-alt) !important;
+    border: 1px solid var(--sage-line) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 6px 24px rgba(0,0,0,.12) !important;
+}
+.vega-tooltip :is(td,th,span,div) {
+    color: var(--sage-text) !important;
+    font-size: 1.07rem !important;
+    line-height: 1.5 !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] > div,
+[data-testid="stMain"] [data-baseweb="input"] input {
+    background: var(--sage-surface-alt) !important;
+    color: var(--sage-text) !important;
+    border-color: var(--sage-line) !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] :is(span,input) {
+    color: var(--sage-text) !important;
+    font-size: 1.07rem !important;
+}
+@media(max-width: 600px) {
+  .sage-readable-table { table-layout: auto !important; }
+  .sage-readable-table th { min-width: 0; }
+  .sage-readable-table-scroller .sage-readable-table td.sage-prose { min-width: 0; }
+  .sage-readable-table td:before { color: var(--sage-muted) !important; }
+}
+.sage-diagnostic-text {
+    display:block; max-width:100%; overflow-wrap:anywhere; white-space:pre-wrap;
+    background:var(--sage-surface-tint); color:var(--sage-text);
+    border:1px solid var(--sage-line); border-radius:12px;
+    padding:1rem 1.15rem; font-size:1rem; line-height:1.65;
+    user-select:text; -webkit-user-select:text;
+}
+/* Sage UI v3: final component-level cascade (no OS blue fallback). */
+[data-testid="stMain"] :is([data-testid="stButton"],
+   [data-testid="stFormSubmitButton"], [data-testid="stDownloadButton"])
+   button:not([data-testid="stBaseButton-primary"]),
+[data-testid="stMain"] button[kind="secondary"] {
+    background: var(--sage-surface-tint) !important;
+    background-image: none !important;
+    color: var(--sage-text) !important;
+    border: 1.5px solid var(--sage-line) !important;
+    box-shadow: none !important;
+}
+[data-testid="stMain"] :is([data-testid="stButton"],
+   [data-testid="stFormSubmitButton"]) button:is([kind="primary"],
+   [data-testid="stBaseButton-primary"]),
+[data-testid="stMain"] .st-key-sage_question_submit button {
+    background: var(--sage-accent) !important;
+    background-image: none !important;
+    border: 1.5px solid transparent !important;
+    color: var(--sage-on-accent) !important;
+    box-shadow: 0 5px 16px rgba(0,0,0,.09) !important;
+}
+[data-testid="stMain"] :is(.st-key-sage_question_submit,
+   .st-key-sage_question_modify, .st-key-sage_question_clear_edit,
+   .st-key-sage_question_clear_view) button {
+    font-weight: 750 !important;
+    font-size: 1.05rem !important;
+    letter-spacing: .005em;
+}
+[data-testid="stMain"] :is(.st-key-sage_question_modify,
+   .st-key-sage_question_clear_edit,
+   .st-key-sage_question_clear_view) button {
+    background: var(--sage-surface-tint) !important;
+    background-image: none !important;
+    border: 1.5px solid var(--sage-line) !important;
+    color: var(--sage-text) !important;
+    box-shadow: none !important;
+}
+[data-testid="stMain"] button :is(p,span,svg),
+[data-testid="stSidebar"] button :is(p,span,svg) { color: inherit !important; }
+[data-testid="stMain"] button:not(:disabled):hover {
+    filter: brightness(.95);
+    transform: translateY(-1px);
+}
+[data-testid="stMain"] button:disabled { opacity: .50 !important; box-shadow:none !important; }
+/* The sidebar call to action must also match whichever theme is active. */
+[data-testid="stSidebar"] .st-key-sage_random_question button {
+    background: var(--sage-accent) !important;
+    background-image: none !important;
+    color: var(--sage-on-accent) !important;
+    border-color: transparent !important;
+}
+.sage-theme-swatches { display:none !important; flex-wrap:wrap; gap:9px;
+    padding:.35rem 0 .65rem; align-items:center; }
+.sage-theme-chip { flex:0 0 21px; height:21px;
+    display:inline-block; border-radius:7px;
+    box-shadow:0 0 0 1px rgba(255,255,255,.38); }
+.sage-theme-chip.is-current { outline:2px solid #ffffff; outline-offset:3px; }
+/* Internal charts are coloured by Vega, NOT by guessed browser theme. */
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] {
+    background: #ffffff !important;
+    border:1px solid #c7d8cc;
+    border-radius:16px;
+}
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] :is(canvas,svg) {
+    background: #ffffff !important;
+}
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] + div {
+    color:var(--sage-text) !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] a {
+    color:var(--sage-accent) !important;
+}
+/* A wider desktop reading column and safe phones/tablet clipping. */
+[data-testid="stMain"] .block-container { max-width:1280px !important; }
+[data-testid="stMain"] [data-testid="stVerticalBlock"],
+[data-testid="stMain"] [data-testid="stHorizontalBlock"],
+[data-testid="stMain"] [data-testid="column"] { min-width:0; }
+@media (max-width: 700px) {
+    [data-testid="stMain"] .block-container { padding:.65rem .7rem 2.5rem !important; }
+    .st-key-sage_answer_surface { padding:1rem .8rem !important; }
+    .sage-hero { padding:1.5rem 1.05rem; }
+    .sage-hero h1 { font-size:clamp(2.6rem,11vw,4rem) !important; }
+    .sage-hero__kicker { max-width:100%; }
+    .sage-landing-card__desc { line-height:1.55 !important; }
+    .st-key-sage_question_layout :is(.st-key-sage_question_submit,
+      .st-key-sage_question_modify,.st-key-sage_question_clear_edit,
+      .st-key-sage_question_clear_view) button { min-height:48px !important; }
+}
+/* UX round 3: generous reading rhythm and resilient chart layout. */
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] :is(p,li) {
+    line-height: 1.7;
+}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p {
+    font-size: 1rem !important; line-height: 1.5 !important;
+}
+[data-testid="stMain"] :is([data-testid="stVegaLiteChart"],
+    [data-testid="stPlotlyChart"], [data-testid="stImage"]) {
+    width:100% !important; max-width:100%; min-width:0;
+}
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] > div {
+    max-width:100%; min-width:0;
+}
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] canvas {
+    max-width:100%;
+}
+[data-testid="stMain"] input, [data-testid="stMain"] textarea,
+[data-testid="stMain"] button { font-size: 1.05rem !important; }
+.sage-hero__sub { font-size: clamp(1rem,1.45vw,1.15rem) !important; line-height:1.65; }
+.sage-landing-card { gap: .85rem; }
+@media (max-width: 720px) {
+    .sage-landing-cards { grid-template-columns:1fr !important; gap:.55rem; }
+    .sage-landing-card { padding: .72rem .9rem; }
+    .sage-landing-card__desc { font-size:.94rem !important; }
+    .sage-hero__visual { display:none !important; }
+    .sage-hero__text { max-width:100% !important; }
+    .sage-hero { min-height:0 !important; }
+    [data-testid="stMain"] [data-testid="stHorizontalBlock"] { flex-wrap:wrap; }
+    .st-key-sage_answer_surface :is(table,pre) { max-width:100%; overflow-x:auto; }
+}
+@media (max-width: 400px) {
+    [data-testid="stMain"] .block-container { padding:.65rem .55rem 2rem !important; }
+    .st-key-sage_question_layout { padding: .9rem .7rem !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+/* Reference-dashboard inspired presentation; applies to the hero, not analytical plots. */
+.sage-new-hero {
+    min-height: 250px !important;
+    padding: clamp(1.35rem, 3vw, 2.45rem) !important;
+    display:flex; align-items:center; border:1px solid var(--sage-line);
+    background:linear-gradient(105deg,#f0f9f5 0%,#f7faf9 52%,#e9f8fc 100%) !important;
+    color:#0d2730 !important; box-shadow:0 12px 36px rgba(34,76,67,.09);
+    isolation:isolate;
+}
+.sage-new-hero-art {
+    position:absolute;z-index:0;right:0;top:0;bottom:0;width:53%;
+    background-repeat:no-repeat;background-size:cover;background-position:center 35%;
+    -webkit-mask-image:linear-gradient(to right,transparent,black 32%);
+    mask-image:linear-gradient(to right,transparent,black 32%);pointer-events:none;
+}
+.sage-new-hero-content { position:relative; z-index:1; max-width:min(68%,750px); }
+.sage-new-hero h1 { color:#102638 !important; font-size:clamp(1.85rem,3.1vw,3.25rem) !important;
+    line-height:1.13 !important;letter-spacing:-.045em !important; font-weight:780 !important;
+    margin:.25rem 0 .75rem !important; }
+.sage-new-hero h1 span { color:#087247 !important; }
+.sage-new-hero .sage-hero__eyebrow { color:#246c55 !important;opacity:1;font-size:.84rem;
+    margin:0 0 .75rem;letter-spacing:.06em; }
+.sage-new-hero .sage-hero__sub {color:#30475b !important;max-width:35rem;font-size:1.07rem !important;
+    line-height:1.58 !important; }
+.sage-landing-card {border:1px solid var(--sage-line) !important; border-radius:17px !important;
+    box-shadow:0 4px 17px rgba(32,72,59,.045) !important; }
+.sage-landing-card__title { font-size:1.06rem !important; }
+.sage-landing-card__desc { font-size:.95rem !important; line-height:1.55 !important; }
+[data-testid="stMain"] .block-container {max-width:1460px !important;}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] { overflow-wrap:break-word; }
+@media(max-width:850px) {
+    .sage-new-hero-content {max-width:78%;}
+    .sage-new-hero-art {width:60%; opacity:.55;}
+}
+@media(max-width:600px) {
+    .sage-new-hero {min-height:230px !important;}
+    .sage-new-hero-content {max-width:100%;}
+    .sage-new-hero-art {width:75%;opacity:.16;}
+    .sage-new-hero h1 {font-size:clamp(1.65rem,7vw,2.25rem) !important;}
+    .sage-new-hero .sage-hero__sub {font-size:1rem !important;}
+}
+
+/* ---- Round 6: reference-picture look & feel -------------------- */
+/* (4) Hide Streamlit's Deploy button, running/"moving" status icon and
+   three-dots menu. Sidebar collapse control and header stay intact. */
+.stAppDeployButton, [data-testid="stAppDeployButton"],
+[data-testid="stStatusWidget"], [data-testid="stMainMenu"],
+[data-testid="stToolbarActions"], #MainMenu, footer {
+    display: none !important; visibility: hidden !important;
+}
+/* (1) Hero: the old "white text" rule beat the dark hero lettering,
+   and the image mask faded out the boy. Re-assert with higher weight. */
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-new-hero h1 {
+    color:#0f2a3a !important; text-shadow:0 1px 14px rgba(255,255,255,.75);
+    font-size:clamp(1.8rem,2.9vw,3.1rem) !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-new-hero h1 span { color:#0a7a4b !important; }
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-new-hero .sage-hero__eyebrow {
+    color:#1d6a4e !important; opacity:1 !important; font-weight:750;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-new-hero .sage-hero__sub {
+    color:#1f3a4d !important; opacity:1 !important; font-weight:500;
+    text-shadow:0 1px 10px rgba(255,255,255,.8);
+}
+.sage-new-hero {
+    min-height:280px !important;
+    background:linear-gradient(100deg,#eef7f0 0%,#f5fbf7 42%,#dff1fa 100%) !important;
+}
+.sage-new-hero-art {
+    width:60% !important; background-size:cover !important;
+    background-position:center 30% !important;
+    -webkit-mask-image:linear-gradient(to right,transparent 0,#000 9%) !important;
+    mask-image:linear-gradient(to right,transparent 0,#000 9%) !important;
+}
+.sage-new-hero-content { max-width:min(52%,680px) !important; }
+@media(max-width:850px) {
+    .sage-new-hero-art { width:100% !important; opacity:.35 !important; }
+    .sage-new-hero-content { max-width:100% !important; }
+}
+/* (2) No black dropdown lists: Streamlit renders select menus in a
+   portal outside the sidebar, so style them globally. */
+[data-baseweb="popover"], [data-baseweb="popover"] > div,
+[data-baseweb="menu"], ul[role="listbox"] {
+    background:#ffffff !important; color:#1f3b30 !important;
+    border-radius:14px !important;
+}
+[data-baseweb="popover"] { box-shadow:0 10px 30px rgba(20,60,45,.18) !important; border:1px solid #c7d8cc; }
+[data-baseweb="popover"] li, ul[role="listbox"] li,
+[data-baseweb="menu"] li, [role="option"] {
+    background:#ffffff !important; color:#1f3b30 !important;
+}
+[data-baseweb="popover"] li *, [role="option"] * { color:#1f3b30 !important; }
+[data-baseweb="popover"] li:hover, [role="option"]:hover,
+[role="option"][aria-selected="true"], li[aria-selected="true"] {
+    background:#e3f1e6 !important;
+}
+[data-testid="stSidebar"] [data-baseweb="select"] > div {
+    background:#ffffff !important; color:#1f3b30 !important;
+    border:1px solid #bcd3c3 !important;
+}
+[data-testid="stSidebar"] [data-baseweb="select"] :is(span,input,svg,div) {
+    color:#1f3b30 !important; fill:#1f3b30 !important;
+}
+
+/* ---- Round 7 ---------------------------------------------------- */
+/* Keep the subtitle on two lines: break before "through". */
+.sage-new-hero .sage-hero__sub { max-width:none !important; }
+.sage-new-hero-content { max-width:min(56%,760px) !important; }
+/* (3) No copy button on the submitted-question box. */
+[data-testid="stCodeCopyButton"], [data-testid="stCode"] button,
+.st-key-sage_question_readonly button { display:none !important; }
+/* (4) Every select / dropdown is white, even if the OS or browser is in dark mode. */
+[data-testid="stSelectbox"] [data-baseweb="select"] > div,
+[data-testid="stMultiSelect"] [data-baseweb="select"] > div,
+[data-baseweb="select"] > div, [data-baseweb="input"], [data-baseweb="input"] > div {
+    background:#ffffff !important; color:#1f3b30 !important; border-color:#bcd3c3 !important;
+}
+[data-baseweb="select"] :is(span,input,svg,div) { color:#1f3b30 !important; fill:#1f3b30 !important; }
+[data-baseweb="popover"] :is(div,ul,li,span,p),
+[data-testid="stSelectboxVirtualDropdown"], [data-testid="stSelectboxVirtualDropdown"] :is(div,ul,li,span),
+div[role="listbox"], div[role="listbox"] :is(div,li,span) {
+    background-color:#ffffff !important; color:#1f3b30 !important;
+}
+[data-baseweb="popover"] :is(li,[role="option"]):hover,
+[data-baseweb="popover"] :is(li,[role="option"]):hover *,
+[role="option"][aria-selected="true"], [role="option"][aria-selected="true"] * {
+    background-color:#e3f1e6 !important;
+}
+[data-testid="stTextArea"] textarea { background:#ffffff !important; color:#1f3b30 !important; }
+/* Sidebar "Appearance" label in bold. */
+[data-testid="stSidebar"] .st-key-sage_theme_choice :is(label,[data-testid="stWidgetLabel"]) :is(p,span),
+[data-testid="stSidebar"] .st-key-sage_theme_choice label { font-weight:700 !important; }
+
+/* ---- Round 8 ---------------------------------------------------- */
+/* Mobile: slide the artwork so the boy (left of centre) is in view. */
+@media(max-width:850px) {
+    .sage-new-hero-art { background-position:15% 30% !important; }
+}
+/* Surprise me: hover stays in the button's own colour, never washes out. */
+[data-testid="stSidebar"] .st-key-sage_random_question button:hover:not(:disabled) {
+    background:linear-gradient(135deg,var(--sage-accent-2),var(--sage-accent)) !important;
+    color:#ffffff !important; border-color:transparent !important;
+    filter:brightness(.88);
+}
+[data-testid="stSidebar"] .st-key-sage_random_question button:hover:not(:disabled) :is(p,span) { color:#ffffff !important; }
+/* Question box: tall enough to start, then it grows with its text. */
+.st-key-question_editor textarea { min-height:112px !important; }
+/* Clicking the hero picture cycles to the next theme (invisible button on top of it). */
+.st-key-sage_hero_wrap { position:relative; }
+.st-key-sage_hero_wrap .st-key-sage_hero_cycle {
+    position:absolute !important; top:0; right:0; bottom:0; width:56%;
+    z-index:5; margin:0 !important; height:auto !important;
+}
+.st-key-sage_hero_cycle :is([data-testid="stButton"], div) { height:100% !important; width:100% !important; }
+.st-key-sage_hero_cycle button {
+    height:100% !important; width:100% !important; min-height:100% !important;
+    opacity:0 !important; cursor:pointer !important; padding:0 !important;
+}
+
+/* ---- Round 9 ---------------------------------------------------- */
+/* Redraw Graph: white lettering on a solid accent background. */
+[data-testid="stMain"] [class*="st-key-sage_redraw_"] button,
+[data-testid="stMain"] [class*="st-key-sage_redraw_"] button:disabled {
+    background:linear-gradient(135deg,var(--sage-accent-2),var(--sage-accent)) !important;
+    color:#ffffff !important; border:1px solid transparent !important;
+    font-weight:700 !important;
+}
+[data-testid="stMain"] [class*="st-key-sage_redraw_"] button :is(p,span,div) {
+    color:#ffffff !important; font-weight:700 !important;
+}
+[data-testid="stMain"] [class*="st-key-sage_redraw_"] button:hover:not(:disabled) {
+    filter:brightness(.88); color:#ffffff !important;
+}
+/* Charts: a clear frame around the whole chart, with breathing room inside
+   (the inner spacing itself comes from the Vega padding set in style_altair_chart). */
+[data-testid="stMain"] [data-testid="stVegaLiteChart"] { border:none !important; }
+[data-testid="stMain"] .vega-embed {
+    display:block !important; width:100% !important; box-sizing:border-box !important;
+    border:1.5px solid #b9cfc0 !important; border-radius:16px !important;
+    background:#ffffff !important; overflow:hidden;
+}
+
+/* ---- Round 12 ---------------------------------------------------- */
+/* The generic markdown-table style framed our table AGAIN inside its own
+   bordered wrapper (a second frame with a gap below). One frame only. */
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] table.sage-readable-table {
+    display:table !important; border:0 !important; border-radius:0 !important;
+    background:transparent !important; margin:0 !important; overflow:visible !important;
+    border-collapse:collapse !important; width:100% !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-readable-table-scroller {
+    margin:0 0 .35rem !important; overflow-y:hidden;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-readable-table tbody tr:last-child td {
+    border-bottom:0 !important;
+}
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] .sage-readable-table td {
+    font-variant-numeric:tabular-nums;
+}
+
+/* ---- Round 23: half the gap between the question box and the answer ---------------- */
+.st-key-sage_question_layout { margin-bottom: .45rem !important; }
+.st-key-sage_answer_surface { margin: .3rem 0 1.1rem !important; }
+/* Placeholder slots (st.empty) draw nothing but still take a flex-gap row. */
+[data-testid="stMain"] [data-testid="stElementContainer"]:has(> [data-testid="stEmpty"]),
+[data-testid="stMain"] [data-testid="stElementContainer"]:has(> .stEmpty) { display: none !important; }
+
+/* ---- Round 35: data-source disclaimer --------------------------------------------- */
+.sage-disclaimer {
+    margin: 1.6rem 0 .6rem; padding-top: .8rem; border-top: 1px solid var(--sage-line);
+    font-size: .82rem; line-height: 1.5; color: var(--sage-muted);
+}
+.sage-disclaimer a { color: inherit; text-decoration: underline; }
+.sage-disclaimer strong { font-weight: 700; }
+.sage-disclaimer p { margin: 0 0 .45rem; }
+
+/* ---- Round 37: per-table data attribution ------------------------------------------ */
+.sage-attribution { margin: .15rem 0 .9rem; font-size: .8rem; line-height: 1.45; color: var(--sage-muted); }
+.sage-attribution a { color: inherit; text-decoration: underline; }
+
+/* ---- Main-area form controls follow the Sage theme (keep LAST) ---------------------
+   Streamlit draws dropdowns, radio buttons and checkboxes in ITS theme: black when the
+   browser/device is in dark mode or .streamlit/config.toml was not loaded, with a red
+   "selected" dot. These rules use the Sage theme variables, so every theme matches. */
+[data-testid="stMain"] [data-baseweb="select"] > div,
+[data-testid="stMain"] [data-baseweb="select"] > div > div {
+    background: var(--sage-surface) !important; color: var(--sage-text) !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] > div {
+    border: 1px solid var(--sage-line) !important; border-radius: 12px !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] > div:hover,
+[data-testid="stMain"] [data-baseweb="select"] > div:focus-within {
+    border-color: var(--sage-accent) !important;
+}
+[data-testid="stMain"] [data-baseweb="select"] :is(span, input, div) { color: var(--sage-text) !important; }
+[data-testid="stMain"] [data-baseweb="select"] svg { color: var(--sage-accent) !important; fill: var(--sage-accent) !important; }
+/* The open dropdown list is drawn outside the page container. */
+[data-baseweb="popover"] [role="listbox"], [data-baseweb="popover"] ul {
+    background: var(--sage-surface) !important; border: 1px solid var(--sage-line) !important;
+}
+[data-baseweb="popover"] [role="option"] { background: var(--sage-surface) !important; color: var(--sage-text) !important; }
+[data-baseweb="popover"] [role="option"]:hover,
+[data-baseweb="popover"] [role="option"][aria-selected="true"] { background: var(--sage-accent-soft) !important; }
+/* Radio buttons: an open ring, filled with the theme accent when chosen (never red). */
+[data-testid="stRadio"] [role="radiogroup"] label > div:first-child {
+    background: var(--sage-surface) !important;
+    border: 2px solid var(--sage-muted) !important; box-shadow: none !important;
+}
+[data-testid="stRadio"] [role="radiogroup"] label:has(input:checked) > div:first-child {
+    background: var(--sage-surface) !important; border-color: var(--sage-accent) !important;
+    box-shadow: inset 0 0 0 3px var(--sage-surface), inset 0 0 0 8px var(--sage-accent) !important;
+}
+[data-testid="stRadio"] [role="radiogroup"] label > div:first-child > div { background: transparent !important; }
+/* Text boxes: Streamlit wraps each one in a container drawn in ITS theme, which shows
+   as a black square frame around Sage's rounded box. Multi-line boxes style the
+   textarea itself, so the wrapper becomes invisible; single-line boxes get the
+   theme border on the wrapper instead. */
+[data-testid="stMain"] [data-testid="stTextArea"] [data-baseweb="textarea"],
+[data-testid="stMain"] [data-testid="stTextArea"] [data-baseweb="base-input"] {
+    background: transparent !important; border: 0 !important; border-radius: 16px !important;
+    box-shadow: none !important; outline: none !important;
+}
+[data-testid="stMain"] [data-testid="stTextArea"] textarea {
+    border: 1px solid var(--sage-line) !important; border-radius: 16px !important;
+}
+[data-testid="stMain"] :is([data-testid="stTextInput"], [data-testid="stNumberInput"]) [data-baseweb="input"] {
+    background: var(--sage-surface) !important; border: 1px solid var(--sage-line) !important;
+    border-radius: 12px !important; box-shadow: none !important;
+}
+[data-testid="stMain"] :is([data-testid="stTextInput"], [data-testid="stNumberInput"]) [data-baseweb="input"]:focus-within {
+    border-color: var(--sage-accent) !important;
+}
+[data-testid="stMain"] :is([data-testid="stTextInput"], [data-testid="stNumberInput"]) :is([data-baseweb="base-input"], input) {
+    background: transparent !important; color: var(--sage-text) !important;
+}
+/* Every single-line input (incl. the sign-in password box), wherever it appears:
+   Streamlit's own dark-mode styling sits on the wrapper, the inner field, the
+   input and the eye (show password) button -- cover them all. */
+[data-baseweb="input"] {
+    background: var(--sage-surface) !important; border: 1px solid var(--sage-line) !important;
+    border-radius: 12px !important; box-shadow: none !important;
+}
+[data-baseweb="input"]:focus-within { border-color: var(--sage-accent) !important; }
+[data-baseweb="input"] > div, [data-baseweb="input"] [data-baseweb="base-input"],
+[data-baseweb="input"] input {
+    background: transparent !important; color: var(--sage-text) !important;
+    caret-color: var(--sage-text) !important;
+}
+[data-baseweb="input"] input::placeholder { color: var(--sage-muted) !important; opacity: .9; }
+[data-baseweb="input"] button { background: transparent !important; border: 0 !important; }
+[data-baseweb="input"] button svg { color: var(--sage-muted) !important; fill: var(--sage-muted) !important; }
+/* Browser password autofill paints its own background; keep the theme surface. */
+[data-baseweb="input"] input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 40px var(--sage-surface) inset !important;
+    -webkit-text-fill-color: var(--sage-text) !important;
+}
+/* Chart tooltips on TOUCH screens: a tap shows the box but nothing ever hides it (there
+   is no "mouse leaving"), so it stayed on screen, even over the table below. Phones
+   do not need it: line charts show the tapped value beside the line, bar charts print
+   values on the bars. Computers with a mouse keep the tooltip. */
+@media (hover: none) and (pointer: coarse) {
+    #vg-tooltip-element, .vg-tooltip { display: none !important; }
+}
+/* Streamlit dims everything it is redrawing ("stale") while a click is processed.
+   A tick in the series table redraws the chart and table, so the page flashed pale.
+   Keep content fully visible; it updates in place. */
+[data-stale="true"], .stale-element, [data-testid="stElementContainer"][data-stale="true"] {
+    opacity: 1 !important; transition: none !important; filter: none !important;
+}
+/* ...except the chart area while it is being redrawn: a gentle dim, only if the update
+   takes longer than about a third of a second, so quick updates never flicker. */
+[class*="st-key-sage_chart_area_"] [data-stale="true"] {
+    opacity: .45 !important; transition: opacity .2s ease .3s !important;
+}
+/* Checkboxes in the main area: white box, theme accent with a white tick when on. */
+[data-testid="stMain"] [data-testid="stCheckbox"] label > span:first-of-type,
+[data-testid="stMain"] [data-testid="stCheckbox"] [role="checkbox"] {
+    background: var(--sage-surface) !important; border: 2px solid var(--sage-muted) !important;
+}
+[data-testid="stMain"] [data-testid="stCheckbox"] label:has(input:checked) > span:first-of-type,
+[data-testid="stMain"] [data-testid="stCheckbox"] [role="checkbox"][aria-checked="true"] {
+    background: var(--sage-accent) !important; border-color: var(--sage-accent) !important;
+}

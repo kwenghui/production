@@ -1,0 +1,1043 @@
+SAGE GENERATED QUESTION BANK — SOURCE-METADATA-BASED
+Questions reference published table titles. Series and numerical coverage are NOT assumed verified.
+
+01. OFFICIAL TABLE QUESTIONS BATCH 01
+01. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and type of home?
+02. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and household structure?
+03. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income, age group of the head of the household and living arrangement?
+04. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and household size?
+05. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and number of working people in the household?
+06. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income, ethnic group and gender of the head of the household?
+07. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and highest education level of the head of the household?
+08. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and occupation of the head of the household?
+09. [CHART] [CATEGORY: Households] How does average monthly household market income among Singapore resident households differ by source of income and ethnic group of the head of the household?
+10. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and type of home?
+11. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and household structure?
+12. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household, age group of the head of the household and living arrangement?
+13. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and number of working people in the household?
+14. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household, ethnic group and gender of the head of the household?
+15. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and highest education level of the head of the household?
+16. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and occupation of the head of the household?
+17. [CHART] [CATEGORY: Households] How does average monthly household market income per person in the household among Singapore resident households differ by source of income and ethnic group of the head of the household?
+18. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and predominant household language?
+19. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by ethnic make-up of the household?
+20. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by area they live in and monthly household market income?
+21. [CHART] [CATEGORY: Households] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, monthly household market income and gender?
+22. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, monthly household market income and gender?
+23. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over in Singapore resident households are there, broken down by living arrangement, difficulty doing everyday activities, gender and more?
+24. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and difficulty doing everyday activities?
+25. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by region they live in, industry and gender?
+26. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by region they live in, occupation and gender?
+27. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by region they work in, industry and gender?
+28. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by region they work in, occupation and gender?
+29. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by age group, ethnic group, gender and more?
+30. [CHART] [CATEGORY: Population] How many Singapore residents below 1 year of age are there, broken down by month, ethnic group and gender?
+31. [CHART] [CATEGORY: Population] How many Singapore residents are there, grouped by single year of age, ethnic group and gender?
+32. [CHART] [CATEGORY: Population] How are Chinese Singapore residents grouped by age group, detailed ethnic group and gender?
+33. [CHART] [CATEGORY: Population] How are Malay Singapore residents grouped by age group, detailed ethnic group and gender?
+34. [CHART] [CATEGORY: Population] How are Indian Singapore residents grouped by age group, detailed ethnic group and gender?
+35. [CHART] [CATEGORY: Population] How many Singapore residents from other ethnic groups are there, grouped by age group, detailed ethnic group and gender?
+36. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by age group, marital status, gender and more?
+37. [CHART] [CATEGORY: Population] How do resident ever-married females aged 15 and over in Singapore differ by age group, number of children born and ethnic group?
+38. [CHART] [CATEGORY: Population] How do resident ever-married females aged 15 and over in Singapore differ by age group, number of children born and citizen or PR status?
+39. [CHART] [CATEGORY: Economy & Price] How do resident ever-married females aged 15 and over in Singapore differ by age group, number of children born and labour force status?
+40. [CHART] [CATEGORY: Economy & Price] How do resident ever-married females aged 15 and over in Singapore differ by number of children born, labour force status and ethnic group?
+41. [CHART] [CATEGORY: Population] How do resident ever-married females aged 15 and over in Singapore differ by age group, number of children born and highest education level?
+42. [CHART] [CATEGORY: Population] How do resident ever-married females aged 15 and over in Singapore differ by highest education level, number of children born and ethnic group?
+43. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by level of education they are attending, age group, gender and more?
+44. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by age group, highest education level, gender and more?
+45. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by highest education level, marital status, gender and more?
+46. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by highest education level, citizen or PR status and gender?
+47. [CHART] [CATEGORY: Society] How many Singapore resident university graduates aged 15 and over are there, broken down by field of study, where they got their highest qualification and gender?
+48. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by languages they can read and write, age group, gender and more?
+49. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by languages they can read and write, marital status and gender?
+50. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by languages they can read and write, citizen or PR status and gender?
+
+02. OFFICIAL TABLE QUESTIONS BATCH 02
+01. [CHART] [CATEGORY: Economy & Price] How many Singapore residents aged 15 and over are there, broken down by languages they can read and write, labour force status and gender?
+02. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by languages they can read and write, highest education level and gender?
+03. [CHART] [CATEGORY: Society] How many Singapore resident students aged 15 and over are there, broken down by languages they can read and write, ethnic group and gender?
+04. [CHART] [CATEGORY: Society] How many Singapore resident students aged 15 and over are there, broken down by languages they can read and write, level of education they are attending and gender?
+05. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, age group and ethnic group (all ethnic groups)?
+06. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, age group and ethnic group, looking only at the Chinese group?
+07. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, age group and ethnic group, looking only at the Malay group?
+08. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, age group and ethnic group, looking only at the Indian group?
+09. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, age group and ethnic group, looking only at the other ethnic groups group?
+10. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, ethnic group and gender?
+11. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, citizen or PR status and gender?
+12. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, type of home and ethnic group (all ethnic groups)?
+13. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, type of home and ethnic group, looking only at the Chinese group?
+14. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, type of home and ethnic group, looking only at the Malay group?
+15. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, type of home and ethnic group, looking only at the Indian group?
+16. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by language spoken at home, type of home and ethnic group, looking only at the other ethnic groups group?
+17. [CHART] [CATEGORY: Economy & Price] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, labour force status and gender?
+18. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, highest education level and gender?
+19. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, highest education level and ethnic group, looking only at the Chinese group?
+20. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, highest education level and ethnic group, looking only at the Malay group?
+21. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, highest education level and ethnic group, looking only at the Indian group?
+22. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by language spoken at home, highest education level and ethnic group, looking only at the other ethnic groups group?
+23. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by language spoken at home, level of education they are attending and gender?
+24. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by language spoken at home, level of education they are attending and ethnic group, looking only at the Chinese group?
+25. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by language spoken at home, level of education they are attending and ethnic group, looking only at the Malay group?
+26. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by language spoken at home, level of education they are attending and ethnic group, looking only at the Indian group?
+27. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by language spoken at home, level of education they are attending and ethnic group, looking only at the other ethnic groups group?
+28. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by age group, religion and gender?
+29. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by religion, ethnic group and gender?
+30. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by religion, marital status and gender?
+31. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by religion, citizen or PR status and gender?
+32. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by type of home, religion and gender?
+33. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by religion, highest education level and gender?
+34. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by age group, ethnic group and gender?
+35. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by highest education level, ethnic group and gender?
+36. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by ethnic group, employment status and gender?
+37. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by industry, ethnic group and gender?
+38. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by occupation, ethnic group and gender?
+39. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by usual hours worked, ethnic group and gender?
+40. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by gross monthly employment income, ethnic group and gender?
+41. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home, household size and tenancy (owned or rented)?
+42. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home, ethnic group of the head of the household and tenancy (owned or rented)?
+43. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home and age group of the head of the household?
+44. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home, household size and ethnic group of the head of the household?
+45. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household size and age group of the head of the household?
+46. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household size and floor area of their home?
+47. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household structure and type of home?
+48. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household structure and household size?
+49. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household structure and age group of the head of the household?
+50. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and type of home?
+
+03. OFFICIAL TABLE QUESTIONS BATCH 03
+01. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and household size?
+02. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and ethnic group of the head of the household?
+03. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group and ethnic group of the head of the household?
+04. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home and number of working people in the household?
+05. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household structure and number of working people in the household?
+06. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and number of working people in the household?
+07. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household size and number of working people in the household?
+08. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by number of working people in the household and ethnic group of the head of the household?
+09. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and type of home?
+10. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and household structure?
+11. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work, age group of the head of the household and living arrangement?
+12. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and household size?
+13. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and number of working people in the household?
+14. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and ethnic group of the head of the household?
+15. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work per person in the household and type of home?
+16. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work per person in the household and household structure?
+17. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work per person in the household, age group of the head of the household and living arrangement?
+18. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work per person in the household and number of working people in the household?
+19. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work per person in the household and ethnic group of the head of the household?
+20. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and ethnic group of the head of the household?
+21. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and ethnic group of the head of the household?
+22. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home and predominant household language?
+23. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household structure and predominant household language?
+24. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and predominant household language?
+25. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and predominant household language?
+26. [CHART] [CATEGORY: Households] How many resident households in Singapore are there, broken down by the main language spoken at home and ethnic group of the head of household?
+27. [CHART] [CATEGORY: Households] How many resident households in Singapore are there, broken down by the main language spoken at home and age group of the head of household?
+28. [CHART] [CATEGORY: Households] How many married couples in Singapore resident households are there, broken down by the age groups of the husband and wife and the couple’s ethnic group?
+29. [CHART] [CATEGORY: Households] How many married couples in Singapore resident households are there, broken down by the highest education level of the husband and wife?
+30. [CHART] [CATEGORY: Economy & Price] How many married couples in Singapore resident households are there, broken down by monthly employment income and the husband’s age group?
+31. [CHART] [CATEGORY: Economy & Price] How many married couples in Singapore resident households are there, broken down by monthly employment income and the wife’s age group?
+32. [CHART] [CATEGORY: Economy & Price] How many married couples in Singapore resident households are there, broken down by monthly employment income and the couple’s labour force status?
+33. [CHART] [CATEGORY: Economy & Price] How many married couples in Singapore resident households are there, broken down by the husband’s and wife’s monthly employment income?
+34. [CHART] [CATEGORY: Households] How many married couples in Singapore resident households are there, broken down by the husband’s and wife’s occupation?
+35. [CHART] [CATEGORY: Households] How many married couples in Singapore resident households are there, broken down by the husband’s and wife’s religion?
+36. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by area and subzone they live in, age group and gender?
+37. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by area and subzone they live in, ethnic group and gender?
+38. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by area and subzone they live in and type of home?
+39. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by area and subzone they live in, age group and floor area of their home?
+40. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by area they live in and language spoken at home?
+41. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by area they live in and level of education they are attending?
+42. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by area they live in and how they usually travel to school?
+43. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by area they live in and travelling time to school?
+44. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by area they live in, marital status and gender?
+45. [CHART] [CATEGORY: Economy & Price] How many Singapore residents aged 15 and over are there, broken down by area they live in, labour force status and gender?
+46. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by area they live in and languages they can read and write?
+47. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by area they live in and religion?
+48. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by area they live in and highest education level?
+49. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they live in and industry?
+50. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they live in and occupation?
+
+04. OFFICIAL TABLE QUESTIONS BATCH 04
+01. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they live in and gross monthly employment income?
+02. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they live in and how they usually travel to work?
+03. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they live in and travelling time to work?
+04. [CHART] [CATEGORY: Households] How many Singapore resident households are there, grouped by the area they live in and type of home?
+05. [CHART] [CATEGORY: Households] How many Singapore resident households are there, grouped by the area they live in and tenancy (owned or rented)?
+06. [CHART] [CATEGORY: Households] How many Singapore resident households are there, grouped by the area they live in and household structure?
+07. [CHART] [CATEGORY: Households] How many Singapore resident households are there, grouped by the area they live in and household size?
+08. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, grouped by the area they live in and monthly household income from work?
+09. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by region they work in, age group and gender?
+10. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and age group?
+11. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and highest education level?
+12. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and industry?
+13. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and occupation?
+14. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and gross monthly employment income?
+15. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and how they usually travel to work?
+16. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in and travelling time to work?
+17. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by area they work in, how they usually travel to work and region they live in?
+18. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, age group and gender?
+19. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, level of education they are attending and gender?
+20. [CHART] [CATEGORY: Economy & Price] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, monthly household income from work and gender?
+21. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, type of home and gender?
+22. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, travelling time to school and gender?
+23. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by travelling time to school, level of education they are attending and gender?
+24. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, age group and gender?
+25. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, highest education level and gender?
+26. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, employment status and gender?
+27. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, industry and gender?
+28. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, occupation and gender?
+29. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, gross monthly employment income and gender?
+30. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, monthly household income from work and gender?
+31. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, type of home and gender?
+32. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by how they usually travel to work, travelling time to work and gender?
+33. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by industry, travelling time to work and gender?
+34. [CHART] [CATEGORY: Population] How many employed Singapore residents aged 15 and over are there, broken down by occupation, travelling time to work and gender?
+35. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by age group, difficulty doing everyday activities and gender?
+36. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by level of difficulty in performing basic activity in specific domain, age group and gender?
+37. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by area they live in, difficulty doing everyday activities and age group?
+38. [CHART] [CATEGORY: Population] How many Singapore residents aged 5 and over are there, broken down by type of home, difficulty doing everyday activities, gender and more?
+39. [CHART] [CATEGORY: Population] How many Singapore residents aged 65 and over in Singapore resident households are there, broken down by level of difficulty in performing basic activity in specific domain, living arrangement and gender?
+40. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by level of education they are attending, difficulty doing everyday activities and age group?
+41. [CHART] [CATEGORY: Society] How many Singapore resident students aged 5 and over are there, broken down by how they usually travel to school, difficulty doing everyday activities and age group?
+42. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by difficulty doing everyday activities, highest education level and age group?
+43. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 and over are there, broken down by marital status, difficulty doing everyday activities, gender and more?
+44. [CHART] [CATEGORY: Society] How do resident employed persons aged 15 and over in Singapore differ by how they usually travel to work and difficulty doing everyday activities?
+45. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by area they live in and whether at least one member has difficulty doing everyday activities?
+46. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household size and whether at least one member has difficulty doing everyday activities?
+47. [CHART] [CATEGORY: Economy & Price] How many Singapore resident households are there, broken down by monthly household income from work and whether at least one member has difficulty doing everyday activities?
+48. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income and number of working persons in the household?
+49. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household, living arrangement and monthly household market income per person in the household?
+50. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by monthly household market income per person in the household and number of working persons in the household?
+
+05. OFFICIAL TABLE QUESTIONS BATCH 05
+01. [CHART] [CATEGORY: Households] How many resident households are there in Singapore, broken down by area and monthly household market income?
+02. [CHART] [CATEGORY: Households] How do resident working persons aged 15 and over in Singapore differ by how they usually travel to work, monthly household market income and gender?
+03. [CHART] [CATEGORY: Households] How have average annual government transfers per person in Singapore resident households changed from 2015 to 2025, by transfer type?
+04. [CHART] [CATEGORY: Households] How many Singapore resident households are there from 2015 to 2025, broken down by monthly household market income?
+05. [CHART] [CATEGORY: Households] How many Singapore resident households are there from 2015 to 2025, broken down by monthly household market income per person in the household?
+06. [CHART] [CATEGORY: Households] How have average and median monthly household market incomes among Singapore resident households changed from 2015 to 2025?
+07. [CHART] [CATEGORY: Households] By how much have average and median monthly household market incomes among Singapore resident households changed from 2015 to 2025?
+08. [CHART] [CATEGORY: Households] How have average and median monthly household market incomes per person in the household among Singapore resident households changed from 2015 to 2025?
+09. [CHART] [CATEGORY: Households] By how much have average and median monthly household market incomes per person in the household among Singapore resident households changed from 2015 to 2025?
+10. [CHART] [CATEGORY: Households] How has average monthly household market income among Singapore resident households changed from 2015 to 2025, by type of home?
+11. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households changed from 2015 to 2025, by type of home?
+12. [CHART] [CATEGORY: Households] How has average monthly household market income among Singapore resident households changed from 2015 to 2025, by income group?
+13. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households changed from 2015 to 2025, by income group?
+14. [CHART] [CATEGORY: Households] How has monthly household market income among Singapore resident households at selected percentiles changed from 2015 to 2025?
+15. [CHART] [CATEGORY: Households] How has monthly household market income per person in the household among Singapore resident households at selected percentiles changed from 2015 to 2025?
+16. [CHART] [CATEGORY: Households] How many Singapore resident households are there from 2015 to 2025, broken down by monthly household market income, including regular government contributions?
+17. [CHART] [CATEGORY: Households] How many Singapore resident households are there from 2015 to 2025, broken down by monthly household market income per person in the household, including regular government contributions?
+18. [CHART] [CATEGORY: Households] How have average and median monthly household market incomes, including regular government contributions, among Singapore resident households changed from 2015 to 2025?
+19. [CHART] [CATEGORY: Households] By how much have average and median monthly household market incomes, including regular government contributions, among Singapore resident households changed from 2015 to 2025?
+20. [CHART] [CATEGORY: Households] How have average and median monthly household market incomes per person in the household, including regular government contributions, among Singapore resident households changed from 2015 to 2025?
+21. [CHART] [CATEGORY: Households] By how much have average and median monthly household market incomes per person in the household, including regular government contributions, among Singapore resident households changed from 2015 to 2025?
+22. [CHART] [CATEGORY: Households] How has average monthly household market income, including regular government contributions, among Singapore resident households changed from 2015 to 2025, by type of home?
+23. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household, including regular government contributions, among Singapore resident households changed from 2015 to 2025, by type of home?
+24. [CHART] [CATEGORY: Households] How has average monthly household market income, including regular government contributions, among Singapore resident households changed from 2015 to 2025, by income group?
+25. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household, including regular government contributions, among Singapore resident households changed from 2015 to 2025, by income group?
+26. [CHART] [CATEGORY: Households] How has monthly household market income among Singapore resident households at selected percentiles changed from 2015 to 2025 (including regular government contributions)?
+27. [CHART] [CATEGORY: Households] How has monthly household market income per person in the household among Singapore resident households at selected percentiles changed from 2015 to 2025 (including regular government contributions)?
+28. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households changed from 2015 to 2025, by source of income and income group?
+29. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households changed from 2015 to 2025, by source of income and income group (including regular government contributions)?
+30. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2015 to 2025, by source of income?
+31. [CHART] [CATEGORY: Households] How has average monthly household market income per person in the household among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2015 to 2025, by source of income (including regular government contributions)?
+32. [CHART] [CATEGORY: Households] How have characteristics of Singapore resident households changed from 2015 to 2025, by income group (ranked by household market income)?
+33. [CHART] [CATEGORY: Households] How have characteristics of Singapore resident households changed from 2015 to 2025, by income group ranked by household market income (including regular government contributions)?
+34. [CHART] [CATEGORY: Households] How have average annual government transfers per person in the household among Singapore resident households changed from 2015 to 2025, by income group (ranked by household market income)?
+35. [CHART] [CATEGORY: Households] How have average annual government taxes per person in the household among Singapore resident households changed from 2015 to 2025, by income group (ranked by household market income)?
+36. [CHART] [CATEGORY: Households] Are average annual government transfers per person in the household among Singapore resident households higher or lower now than in 2015 (including regular government contributions)?
+37. [CHART] [CATEGORY: Households] Are average annual government taxes per person in the household among Singapore resident households higher or lower now than in 2015 (including regular government contributions)?
+38. [CHART] [CATEGORY: Households] How has the Gini coefficient among Singapore resident households changed from 2015 to 2025?
+39. [CHART] [CATEGORY: Households] How has the ratio of monthly household market income per person in the household at the 90th percentile to the 10th percentile among Singapore resident households changed from 2015 to 2025?
+40. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023?
+41. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of home?
+42. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and type of home?
+43. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by income group?
+44. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and income group?
+45. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by household size?
+46. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and household size?
+47. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by age group of main income earner?
+48. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and age group of main income earner?
+49. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by occupation of main income earner?
+50. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and occupation of main income earner?
+
+06. OFFICIAL TABLE QUESTIONS BATCH 06
+01. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by highest education level of main income earner?
+02. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households changed from 2002/03 to 2023, by type of spending and highest education level of main income earner?
+03. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending?
+04. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and type of home?
+05. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and income group?
+06. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and household size?
+07. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and age group of main income earner?
+08. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and occupation of main income earner?
+09. [CHART] [CATEGORY: Households] What is the make-up of monthly household expenditure among Singapore resident households from 2002/03 to 2023, by type of spending and highest education level of main income earner?
+10. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2002/03 to 2023?
+11. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2002/03 to 2023, by spending group?
+12. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2002/03 to 2023, by type of spending and spending group?
+13. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2002/03 to 2023, by type of home?
+14. [CHART] [CATEGORY: Households] How has monthly household expenditure among Singapore resident households comprising solely non-employed persons aged 65 and over changed from 2002/03 to 2023, by type of spending and type of home?
+15. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP in Singapore changed quarter by quarter (after adjusting for price changes)?
+16. [CHART] [CATEGORY: Economy & Price] By how much has total demand in Singapore changed quarter by quarter (after adjusting for price changes)?
+17. [CHART] [CATEGORY: Economy & Price] How has contribution to growth in total demand in Singapore changed quarter by quarter (after adjusting for price changes)?
+18. [CHART] [CATEGORY: Economy & Price] How has gross fixed capital formation in Singapore changed quarter by quarter (after adjusting for price changes)?
+19. [CHART] [CATEGORY: Economy & Price] How has private consumption expenditure in Singapore changed quarter by quarter (after adjusting for price changes)?
+20. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP in Singapore changed quarter by quarter?
+21. [CHART] [CATEGORY: Economy & Price] How has private consumption expenditure in Singapore changed quarter by quarter?
+22. [CHART] [CATEGORY: Economy & Price] How has gross fixed capital formation in Singapore changed quarter by quarter?
+23. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP in Singapore changed over the years (after adjusting for price changes)?
+24. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP deflators (2015 = 100) in Singapore changed over the years?
+25. [CHART] [CATEGORY: Economy & Price] By how much has total demand in Singapore changed over the years (after adjusting for price changes)?
+26. [CHART] [CATEGORY: Economy & Price] How has contribution to growth in total demand in Singapore changed over the years (after adjusting for price changes)?
+27. [CHART] [CATEGORY: Economy & Price] How has private consumption expenditure in Singapore changed over the years (after adjusting for price changes)?
+28. [CHART] [CATEGORY: Economy & Price] How has gross fixed capital formation in Singapore changed over the years (after adjusting for price changes)?
+29. [CHART] [CATEGORY: Economy & Price] How have multifactor productivity contributions to real GDP growth, using total employment as labour input, changed in Singapore over the years?
+30. [CHART] [CATEGORY: Economy & Price] How has gross capital stock in Singapore changed over the years, by type of assets (after adjusting for price changes)?
+31. [CHART] [CATEGORY: Economy & Price] How has net capital stock in Singapore changed over the years, by type of assets (after adjusting for price changes)?
+32. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP in Singapore changed over the years?
+33. [CHART] [CATEGORY: Economy & Price] How have gross national income, national saving and investment in Singapore changed over the years?
+34. [CHART] [CATEGORY: Economy & Price] How has private consumption expenditure in Singapore changed over the years?
+35. [CHART] [CATEGORY: Economy & Price] How has gross fixed capital formation in Singapore changed over the years?
+36. [CHART] [CATEGORY: Economy & Price] How has gross capital stock in Singapore changed over the years, by type of asset?
+37. [CHART] [CATEGORY: Economy & Price] How has net capital stock in Singapore changed over the years, by type of asset?
+38. [CHART] [CATEGORY: Economy & Price] How have gross national income, national saving and investment in USD in Singapore changed over the years?
+39. [CHART] [CATEGORY: Economy & Price] How has expenditure on GDP deflators (2015 = 100) in Singapore changed quarter by quarter?
+40. [CHART] [CATEGORY: Economy & Price] How have per capita gross national income and per capita GDP in Singapore changed over the years?
+41. [CHART] [CATEGORY: Economy & Price] What is the make-up of expenditure on GDP in Singapore, and how has it changed over the years?
+42. [CHART] [CATEGORY: Economy & Price] How has consumption of fixed capital in Singapore changed over the years (after adjusting for price changes)?
+43. [CHART] [CATEGORY: Economy & Price] How has consumption of fixed capital in Singapore changed over the years?
+44. [CHART] [CATEGORY: Economy & Price] By how much has GDP (the value of everything Singapore produces) changed quarter by quarter, compared with the same period a year earlier?
+45. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) changed quarter by quarter, by industry?
+46. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) changed quarter by quarter, by industry (after adjusting for price changes)?
+47. [CHART] [CATEGORY: Economy & Price] How has contribution to growth in GDP in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+48. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) deflators (2015 = 100) changed quarter by quarter, by industry?
+49. [CHART] [CATEGORY: Economy & Price] How has value added per worker in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+50. [CHART] [CATEGORY: Economy & Price] By how much has value added per worker in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+
+07. OFFICIAL TABLE QUESTIONS BATCH 07
+01. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) changed over the years, by industry (after adjusting for price changes)?
+02. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) changed over the years, by industry?
+03. [CHART] [CATEGORY: Economy & Price] How has contribution to growth in GDP in Singapore changed over the years, by industry (after adjusting for price changes)?
+04. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) deflators (2015 = 100) changed over the years, by industry?
+05. [CHART] [CATEGORY: Economy & Price] How has value added per worker in Singapore changed over the years, by industry (after adjusting for price changes)?
+06. [CHART] [CATEGORY: Economy & Price] By how much has value added per worker in Singapore changed over the years, by industry (after adjusting for price changes)?
+07. [CHART] [CATEGORY: Economy & Price] What is the make-up of nominal gross value added in Singapore, by industry, and how has it changed over the years?
+08. [CHART] [CATEGORY: Economy & Price] By how much has GDP (the value of everything Singapore produces) changed over time, compared with the previous quarter, by industry (after adjusting for price changes)?
+09. [CHART] [CATEGORY: Economy & Price] How has value added per worker in Singapore changed quarter by quarter, by industry?
+10. [CHART] [CATEGORY: Economy & Price] How has value added per worker in Singapore changed over the years, by industry?
+11. [CHART] [CATEGORY: Economy & Price] By how much has value added per worker in Singapore changed quarter by quarter, by industry?
+12. [CHART] [CATEGORY: Economy & Price] By how much has value added per worker in Singapore changed over the years, by industry?
+13. [CHART] [CATEGORY: Economy & Price] By how much has value added per actual hour worked in Singapore changed over the years, by industry (after adjusting for price changes)?
+14. [CHART] [CATEGORY: Economy & Price] How has value added per actual hour worked in Singapore changed over the years, by industry (after adjusting for price changes)?
+15. [CHART] [CATEGORY: Economy & Price] By how much has value added per actual hour worked in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+16. [CHART] [CATEGORY: Economy & Price] How has value added per actual hour worked in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+17. [CHART] [CATEGORY: Economy & Price] How has per capita GDP in Singapore changed over the years (after adjusting for price changes)?
+18. [CHART] [CATEGORY: Economy & Price] By how much has GDP (the value of everything Singapore produces) changed over time, compared with the previous quarter, by industry growth (after adjusting for price changes)?
+19. [CHART] [CATEGORY: Economy & Price] By how much has key data of GDP in Singapore changed quarter by quarter, compared with the same period a year earlier, by industry (after adjusting for price changes)?
+20. [CHART] [CATEGORY: Economy & Price] By how much has key data of GDP in Singapore changed over time, compared with the previous quarter, by industry (after adjusting for price changes)?
+21. [CHART] [CATEGORY: Economy & Price] How has key data of GDP in Singapore changed quarter by quarter, by industry (after adjusting for price changes)?
+22. [CHART] [CATEGORY: Economy & Price] How has key data of GDP in Singapore changed over the years, by industry (after adjusting for price changes)?
+23. [CHART] [CATEGORY: Economy & Price] How have income components of GDP in Singapore changed quarter by quarter?
+24. [CHART] [CATEGORY: Economy & Price] How has compensation of employees in Singapore changed quarter by quarter, by industry?
+25. [CHART] [CATEGORY: Economy & Price] How has gross operating surplus in Singapore changed quarter by quarter, by industry?
+26. [CHART] [CATEGORY: Economy & Price] How have other taxes less subsidies on production in Singapore changed from quarter to quarter across industries?
+27. [CHART] [CATEGORY: Economy & Price] How have the income components of GDP in Singapore changed over the years?
+28. [CHART] [CATEGORY: Economy & Price] How has compensation of employees in Singapore changed over the years across industries?
+29. [CHART] [CATEGORY: Economy & Price] How has gross operating surplus in Singapore changed over the years across industries?
+30. [CHART] [CATEGORY: Economy & Price] How have other taxes less subsidies on production in Singapore changed over the years across industries?
+31. [CHART] [CATEGORY: Economy & Price] What is the make-up of income components of GDP in Singapore, and how has it changed over the years?
+32. [CHART] [CATEGORY: Economy & Price] How has personal disposable income in Singapore changed from quarter to quarter?
+33. [CHART] [CATEGORY: Economy & Price] How has Singapore’s generation of income account changed over the years?
+34. [CHART] [CATEGORY: Economy & Price] How has Singapore’s production account changed over the years?
+35. [CHART] [CATEGORY: Economy & Price] How has individual and collective government consumption expenditure in Singapore changed over the years?
+36. [CHART] [CATEGORY: Economy & Price] How has individual and collective government consumption expenditure in Singapore changed from quarter to quarter?
+37. [CHART] [CATEGORY: Economy & Price] How has total demand in Singapore changed quarter by quarter (after adjusting for price changes)?
+38. [CHART] [CATEGORY: Economy & Price] How has total demand in Singapore changed over the years (after adjusting for price changes)?
+39. [CHART] [CATEGORY: Economy & Price] How has gross capital formation in Singapore changed quarter by quarter (after adjusting for price changes)?
+40. [CHART] [CATEGORY: Economy & Price] How has gross capital formation in Singapore changed over the years (after adjusting for price changes)?
+41. [CHART] [CATEGORY: Economy & Price] How has per capita gross national income (PPP, in current international dollars) in Singapore changed over the years?
+42. [CHART] [CATEGORY: Society] How has domestic material consumption for all products in Singapore changed over the years?
+43. [CHART] [CATEGORY: Economy & Price] What is tourism direct GDP as a proportion of total GDP in Singapore?
+44. [CHART] [CATEGORY: Industry] How has manufacturing share of gross value added in Singapore changed over the years (after adjusting for price changes)?
+45. [CHART] [CATEGORY: Society] How has material footprint for all products in Singapore changed over the years?
+46. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) of specific industry groups changed over the years (after adjusting for price changes)?
+47. [CHART] [CATEGORY: Economy & Price] How has GDP (the value of everything Singapore produces) of specific industry groups changed quarter by quarter (after adjusting for price changes)?
+48. [CHART] [CATEGORY: Economy & Price] How has GDP, or the value of everything Singapore produces, in specific industry groups changed over the years?
+49. [CHART] [CATEGORY: Economy & Price] How has GDP, or the value of everything Singapore produces, in specific industry groups changed from quarter to quarter?
+50. [CHART] [CATEGORY: Economy & Price] How have multifactor productivity contributions to real GDP growth, using total actual hours worked as labour input, changed in Singapore over the years?
+
+08. OFFICIAL TABLE QUESTIONS BATCH 08
+01. [CHART] [CATEGORY: Trade & Investment] How has Singapore's balance of payments changed quarter by quarter?
+02. [CHART] [CATEGORY: Trade & Investment] How has Singapore's balance of payments changed over the years?
+03. [CHART] [CATEGORY: Trade & Investment] How have Singapore's balance of payments and additional financial account details changed over the years?
+04. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years for each main trading partner?
+05. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years for each main trading partner?
+06. [CHART] [CATEGORY: Economy & Price] How have Singapore's external debt statistics changed quarter by quarter?
+07. [CHART] [CATEGORY: Trade & Investment] How has Singapore's international investment position changed over the years?
+08. [CHART] [CATEGORY: Trade & Investment] How has Singapore's international investment position changed quarter by quarter?
+09. [CHART] [CATEGORY: Trade & Investment] How has trade in services in Singapore changed over the years, by type of service?
+10. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by main trading partner and type of service?
+11. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by main trading partner and type of service?
+12. [CHART] [CATEGORY: Trade & Investment] How have Singapore's portfolio investment assets changed over the years, by destination economy and instrument?
+13. [CHART] [CATEGORY: Trade & Investment] How have Singapore's balance of payments and additional current account details changed over the years?
+14. [CHART] [CATEGORY: Trade & Investment] How has trade in services in Singapore changed over the years, by detailed type of service?
+15. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by industry and type of service?
+16. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by industry and type of service?
+17. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by industry and main trading partner?
+18. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by industry and main trading partner?
+19. [CHART] [CATEGORY: Trade & Investment] How has Singapore's balance of payments services trade changed over the years, by modes of supply?
+20. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by enterprise size and type of service?
+21. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by enterprise size and type of service?
+22. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by enterprise size and main trading partner?
+23. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by enterprise size and main trading partner?
+24. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by ownership and type of service?
+25. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by ownership and type of service?
+26. [CHART] [CATEGORY: Trade & Investment] How have exports of services in Singapore changed over the years, by ownership and main trading partner?
+27. [CHART] [CATEGORY: Trade & Investment] How have imports of services in Singapore changed over the years, by ownership and main trading partner?
+28. [CHART] [CATEGORY: Trade & Investment] How has Singapore's share of global trade in services changed over the years?
+29. [CHART] [CATEGORY: Industry] How have organisations performing research and development in Singapore changed over the years, by institutional sector?
+30. [CHART] [CATEGORY: Industry] How has research and development manpower in Singapore changed over the years, by broad researcher type and gender?
+31. [CHART] [CATEGORY: Industry] How has research and development expenditure in Singapore changed over the years, by institutional sector and area of research?
+32. [CHART] [CATEGORY: Industry] How has research and development expenditure in Singapore changed over the years, by type of costs and institutional sector?
+33. [CHART] [CATEGORY: Industry] How have patents owned, applied and awarded in Singapore changed over the years?
+34. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years, by destination economy and industry abroad (stock as at year-end)?
+35. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years, by destination economy and industry of investor in Singapore (stock as at year-end)?
+36. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years, by industry of investor in Singapore and industry abroad (stock as at year-end)?
+37. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years (stock as at year-end)?
+38. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct equity investment abroad changed over the years, by destination economy (stock as at year-end)?
+39. [CHART] [CATEGORY: Trade & Investment] How has foreign direct equity investment in Singapore changed over the years, by source economy (stock as at year-end)?
+40. [CHART] [CATEGORY: Trade & Investment] How have principal statistics of foreign direct investment in Singapore changed over the years?
+41. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, by source economy (stock as at year-end)?
+42. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, by source economy and industry (stock as at year-end)?
+43. [CHART] [CATEGORY: Trade & Investment] How has income of foreign direct investment in Singapore changed over the years, by source economy (during the year)?
+44. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years, by destination economy (stock as at year end)?
+45. [CHART] [CATEGORY: Trade & Investment] How has Singapore's direct investment abroad changed over the years, by industry abroad (stock as at year-end)?
+46. [CHART] [CATEGORY: Trade & Investment] How has foreign direct equity investment in Singapore changed over the years, by detailed industry (stock as at year-end)?
+47. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, by detailed industry (stock as at year-end)?
+48. [CHART] [CATEGORY: Trade & Investment] How has income of foreign direct investment in Singapore changed over the years, by detailed industry (during the year)?
+49. [CHART] [CATEGORY: Trade & Investment] How has return on foreign direct investment in Singapore changed over the years, by detailed industry (during the year)?
+50. [CHART] [CATEGORY: Industry] How has total equity of the corporate sector in Singapore changed over the years, by broad industry?
+
+09. OFFICIAL TABLE QUESTIONS BATCH 09
+01. [CHART] [CATEGORY: Industry] How have total assets in Singapore’s corporate sector changed over the years, by broad industry?
+02. [CHART] [CATEGORY: Industry] How has return on equity in Singapore changed over the years, by broad industry?
+03. [CHART] [CATEGORY: Industry] How has return on assets in Singapore changed over the years, by broad industry?
+04. [CHART] [CATEGORY: Industry] How has the equity ratio of companies in Singapore changed over the years, by broad industry?
+05. [CHART] [CATEGORY: Industry] How has the current ratio of companies in Singapore changed over the years, by broad industry?
+06. [CHART] [CATEGORY: Industry] How has research and development expenditure in Singapore changed over the years, by major industry in the private sector?
+07. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed month by month, by industry?
+08. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed month by month, by industry?
+09. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed month by month, by type?
+10. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed month by month, by type?
+11. [CHART] [CATEGORY: Industry] How have the balance sheet details of Singapore’s corporate sector changed over the years?
+12. [CHART] [CATEGORY: Economy & Price] How has profit before tax in Singapore changed over the years, by broad industry?
+13. [CHART] [CATEGORY: Industry] How have investment commitments in manufacturing and services in Singapore changed quarter by quarter, by country of origin for fixed asset investments?
+14. [CHART] [CATEGORY: Industry] How have investment commitments in manufacturing and services in Singapore changed over the years, by country of origin for fixed asset investments?
+15. [CHART] [CATEGORY: Industry] How have investment commitments in manufacturing and services in Singapore changed quarter by quarter, by industry cluster for fixed asset investments?
+16. [CHART] [CATEGORY: Industry] How have investment commitments in manufacturing and services in Singapore changed over the years, by industry cluster for fixed asset investments?
+17. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed over the years, by industry?
+18. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed over the years, by industry?
+19. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed over the years, by type?
+20. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed over the years, by type?
+21. [CHART] [CATEGORY: Industry] How have investment commitments in manufacturing and services in Singapore changed over the years, by industry for fixed asset investments?
+22. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, by source economy?
+23. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, by industry?
+24. [CHART] [CATEGORY: Trade & Investment] How have foreign affiliate statistics in Singapore changed over the years?
+25. [CHART] [CATEGORY: Trade & Investment] How have foreign affiliate statistics in Singapore changed over the years, by major industry?
+26. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, broken down by component?
+27. [CHART] [CATEGORY: Trade & Investment] How has foreign direct investment in Singapore changed over the years, broken down by source economy and component?
+28. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed month by month, broken down by detailed industry?
+29. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed month by month, broken down by detailed industry?
+30. [CHART] [CATEGORY: Industry] How has the formation of all business entities in Singapore changed over the years, broken down by detailed industry?
+31. [CHART] [CATEGORY: Industry] How has the ending of all business entities in Singapore changed over the years, broken down by detailed industry?
+32. [CHART] [CATEGORY: Economy & Price] How has research and development expenditure as a proportion of GDP in Singapore changed over the years at current market prices?
+33. [CHART] [CATEGORY: Population] How has the number of full-time equivalent researchers per million people in Singapore changed over the years?
+34. [CHART] [CATEGORY: Industry] Which eligible SGX-listed issuers in Singapore have published sustainability reports?
+35. [CHART] [CATEGORY: Economy & Price] How have the sources and uses of the development fund in Singapore changed over the years?
+36. [CHART] [CATEGORY: Economy & Price] How has government debt in Singapore changed over the years, broken down by instrument, as at the end of the calendar year?
+37. [CHART] [CATEGORY: Economy & Price] How have duty-paid releases of liquor in Singapore changed month by month?
+38. [CHART] [CATEGORY: Industry] How have duty-paid releases of tobacco, petroleum, compressed natural gas and motor vehicles in Singapore changed month by month?
+39. [CHART] [CATEGORY: Economy & Price] How have taxable companies in Singapore changed over the years, broken down by chargeable income group?
+40. [CHART] [CATEGORY: Economy & Price] How has government debt in Singapore changed quarter by quarter?
+41. [CHART] [CATEGORY: Economy & Price] How has government debt in Singapore changed over the years, broken down by maturity, as at the end of the calendar year?
+42. [CHART] [CATEGORY: Economy & Price] How have taxable individuals in Singapore changed over the years, broken down by assessed income group?
+43. [CHART] [CATEGORY: Economy & Price] How has government operating revenue in Singapore changed month by month?
+44. [CHART] [CATEGORY: Economy & Price] How have taxable companies in Singapore changed over the years, broken down by economic sector?
+45. [CHART] [CATEGORY: Economy & Price] How has the overall fiscal position in Singapore changed over the years?
+46. [CHART] [CATEGORY: Economy & Price] How has government operating revenue in Singapore changed over the years?
+47. [CHART] [CATEGORY: Economy & Price] How has government operating expenditure in Singapore changed over the years, broken down by sector?
+48. [CHART] [CATEGORY: Economy & Price] How has government development expenditure in Singapore changed over the years, broken down by sector?
+49. [CHART] [CATEGORY: Economy & Price] How has general government finance in Singapore changed over the years?
+50. [CHART] [CATEGORY: Economy & Price] How has government finance in Singapore changed over the years?
+
+10. OFFICIAL TABLE QUESTIONS BATCH 10
+01. [CHART] [CATEGORY: Economy & Price] How has government finance in Singapore changed over the months?
+02. [CHART] [CATEGORY: Economy & Price] How has government operating expenditure in Singapore changed over the quarters, by sector?
+03. [CHART] [CATEGORY: Economy & Price] How has government development expenditure in Singapore changed over the quarters, by sector?
+04. [CHART] [CATEGORY: Economy & Price] How have taxes on fossil fuels in Singapore changed over the quarters?
+05. [CHART] [CATEGORY: Economy & Price] How has expenditure on essential services as a percentage of total government expenditure in Singapore changed over the years?
+06. [CHART] [CATEGORY: Economy & Price] How have trade unions and their membership in Singapore changed over the years, at the end of each period?
+07. [CHART] [CATEGORY: Economy & Price] How have trade disputes filed with the Ministry of Manpower in Singapore changed over the years?
+08. [CHART] [CATEGORY: Society] How have active central provident fund members in Singapore changed over the years, by age group?
+09. [CHART] [CATEGORY: Society] How have central provident fund members in Singapore changed over the years, by age group?
+10. [CHART] [CATEGORY: Economy & Price] How has the re-entry into employment rate in Singapore changed over the quarters?
+11. [CHART] [CATEGORY: Economy & Price] How have labour market statistics in Singapore changed over the quarters?
+12. [CHART] [CATEGORY: Economy & Price] How many employed Singapore residents aged 15 and over are there, broken down by industry and occupation (as at June)?
+13. [CHART] [CATEGORY: Economy & Price] How have total Singapore residents aged 15 and over changed over the years, by labour force status and age group?
+14. [CHART] [CATEGORY: Economy & Price] How have male Singapore residents aged 15 and over changed over the years, by labour force status and age group?
+15. [CHART] [CATEGORY: Economy & Price] How have female Singapore residents aged 15 and over changed over the years, by labour force status and age group?
+16. [CHART] [CATEGORY: Economy & Price] How many employed Singapore residents aged 15 and over are there, broken down by industry and age group (as at June)?
+17. [CHART] [CATEGORY: Economy & Price] How many employed male Singapore residents aged 15 and over are there, broken down by industry and age group (as at June)?
+18. [CHART] [CATEGORY: Economy & Price] How many employed female Singapore residents aged 15 and over are there, broken down by industry and age group (as at June)?
+19. [CHART] [CATEGORY: Economy & Price] How many employed Singapore residents aged 15 and over are there, broken down by occupation and age group (as at June)?
+20. [CHART] [CATEGORY: Economy & Price] How many employed male Singapore residents aged 15 and over are there, broken down by occupation and age group (as at June)?
+21. [CHART] [CATEGORY: Economy & Price] How many employed female Singapore residents aged 15 and over are there, broken down by occupation and age group (as at June)?
+22. [CHART] [CATEGORY: Economy & Price] How has resident labour force participation rate aged 15 and over in Singapore changed over the years, by age and gender?
+23. [CHART] [CATEGORY: Economy & Price] How has resident labour force aged 15 and over in Singapore changed over the years, by highest education level and gender?
+24. [CHART] [CATEGORY: Economy & Price] How has labour force aged 15 and over, end june in Singapore changed over the years?
+25. [CHART] [CATEGORY: Economy & Price] How has unemployment rate aged 15 and over, end june in Singapore changed over the years?
+26. [CHART] [CATEGORY: Economy & Price] How has the unemployment rate in Singapore changed quarter by quarter?
+27. [CHART] [CATEGORY: Economy & Price] How much have average monthly nominal earnings per employee in Singapore changed over the years, compared with the same period a year ago?
+28. [CHART] [CATEGORY: Economy & Price] How have government employees in Singapore’s public service changed over the years?
+29. [CHART] [CATEGORY: Economy & Price] How has employment in Singapore changed over the years, by sector, as at year-end?
+30. [CHART] [CATEGORY: Economy & Price] How have average monthly nominal earnings per employee in Singapore changed over the years?
+31. [CHART] [CATEGORY: Economy & Price] How has gross monthly income from employment of full-time employed Singapore residents changed over the years, including employer CPF?
+32. [CHART] [CATEGORY: Society] How have Singapore workforce skills qualifications trainees changed over the years, by age, highest education level and gender?
+33. [CHART] [CATEGORY: Society] How have Singapore workforce skills qualifications trainees changed over the years, by level of WSQ statement of attainment?
+34. [CHART] [CATEGORY: Economy & Price] How have labour market statistics in Singapore changed over the years?
+35. [CHART] [CATEGORY: Economy & Price] How has defaulting on CPF contributions by employers in Singapore changed month by month?
+36. [CHART] [CATEGORY: Economy & Price] How has defaulting on CPF contributions by employers in Singapore changed over the years?
+37. [CHART] [CATEGORY: Economy & Price] How have employment services in Singapore changed month by month, based on year-to-date figures?
+38. [CHART] [CATEGORY: Economy & Price] How have government employees in Singapore’s civil service changed over the years, by gender?
+39. [CHART] [CATEGORY: Economy & Price] How have government employees in Singapore’s statutory boards changed over the years, by gender?
+40. [CHART] [CATEGORY: Economy & Price] How has the average resident unemployment rate in Singapore changed over the years, by gender, age and highest qualification attained?
+41. [CHART] [CATEGORY: Economy & Price] How has the number of active employers in Singapore changed over the years?
+42. [CHART] [CATEGORY: Economy & Price] How has the number of permanent secretaries in Singapore’s civil service changed over the years, by gender?
+43. [CHART] [CATEGORY: Economy & Price] How has the number of deputy secretaries in Singapore’s civil service changed over the years, by gender?
+44. [CHART] [CATEGORY: Industry] How have trade disputes filed with the industrial arbitration court in Singapore changed over the years?
+45. [CHART] [CATEGORY: Economy & Price] How has total Singapore residents labour force aged 15 and over changed over the years, by age and highest education level?
+46. [CHART] [CATEGORY: Economy & Price] How has male Singapore residents labour force aged 15 and over changed over the years, by age and highest education level?
+47. [CHART] [CATEGORY: Economy & Price] How has female Singapore residents labour force aged 15 and over changed over the years, by age and highest education level?
+48. [CHART] [CATEGORY: Industry] How has the unit business cost index of manufacturing (2015 = 100) in Singapore changed quarter by quarter?
+49. [CHART] [CATEGORY: Economy & Price] How has the unit labour cost index (2015 = 100) in Singapore changed quarter by quarter?
+50. [CHART] [CATEGORY: Industry] How has the unit business cost index of manufacturing (2015 = 100) in Singapore changed over the years?
+
+11. OFFICIAL TABLE QUESTIONS BATCH 11
+01. [CHART] [CATEGORY: Economy & Price] How has the unit labour cost index (2015 = 100) in Singapore changed over the years?
+02. [CHART] [CATEGORY: Economy & Price] By how much has employment in Singapore changed quarter by quarter, by sector (compared to the previous period)?
+03. [CHART] [CATEGORY: Economy & Price] By how much has employment in Singapore changed over the years, by sector (compared to the previous period)?
+04. [CHART] [CATEGORY: Economy & Price] How have retrenched employees in Singapore changed quarter by quarter, by industry and occupational group?
+05. [CHART] [CATEGORY: Economy & Price] How has average monthly recruitment rate in Singapore changed quarter by quarter, by industry and occupational group?
+06. [CHART] [CATEGORY: Economy & Price] How has average monthly resignation rate in Singapore changed quarter by quarter, by industry and occupational group?
+07. [CHART] [CATEGORY: Economy & Price] How has average monthly recruitment rate in Singapore changed over the years, by industry and occupational group?
+08. [CHART] [CATEGORY: Economy & Price] How has average monthly resignation rate in Singapore changed over the years, by industry and occupational group?
+09. [CHART] [CATEGORY: Economy & Price] How have average weekly paid hours worked per employee in Singapore changed over the years, by industry?
+10. [CHART] [CATEGORY: Economy & Price] How have job vacancies in Singapore changed quarter by quarter, by industry and occupational group?
+11. [CHART] [CATEGORY: Economy & Price] How have unemployed Singapore residents aged 15 and over changed over the years, by gender?
+12. [CHART] [CATEGORY: Economy & Price] How have usual hours worked per week and percentage of employed Singapore residents who worked at least 40 hours per week, june changed over the years?
+13. [CHART] [CATEGORY: Economy & Price] How has the mean gross monthly income from employment of employed Singapore residents changed quarter by quarter, including employer CPF and excluding bonus?
+14. [CHART] [CATEGORY: Economy & Price] What proportion of managers and administrators in Singapore are resident females, and how has it changed over the years?
+15. [CHART] [CATEGORY: Economy & Price] How has the resident unemployment rate of persons with disabilities aged 15 to 64 in Singapore changed over the years?
+16. [CHART] [CATEGORY: Economy & Price] What proportion of Singapore residents aged 15 to 24 who are unemployed or outside the labour force due to reasons other than education or training, broken down by gender?
+17. [CHART] [CATEGORY: Economy & Price] How has resident long-term unemployment in Singapore changed over the years (at least 25 weeks; annual average)?
+18. [CHART] [CATEGORY: Economy & Price] How has the average resident long-term unemployment rate in Singapore changed over the years, by gender, age and highest education level?
+19. [CHART] [CATEGORY: Economy & Price] How has the workplace injury rate in Singapore changed over the years?
+20. [CHART] [CATEGORY: Economy & Price] How has total employment in un-defined tourism industries in Singapore changed over the years?
+21. [CHART] [CATEGORY: Economy & Price] How has manufacturing's share of total employment in Singapore changed over the years?
+22. [CHART] [CATEGORY: Economy & Price] How have individual employment disputes in Singapore changed over the years?
+23. [CHART] [CATEGORY: Economy & Price] What is the make-up of contributing family workers among employed Singapore residents aged 15 and over, by gender, and how has it changed over the years?
+24. [CHART] [CATEGORY: Society] How has discrimination or harassment experienced at work or during job searches in Singapore changed over the years?
+25. [CHART] [CATEGORY: Economy & Price] How are Singapore residents with disabilities aged 15 to 64 spread out by labour force status?
+26. [CHART] [CATEGORY: Economy & Price] How has the employment rate of Singapore residents with disabilities changed over the years, by age?
+27. [CHART] [CATEGORY: Economy & Price] How are employed Singapore residents with disabilities aged 15 to 64 spread out by industry?
+28. [CHART] [CATEGORY: Economy & Price] How have unemployed Singapore residents aged 15 and over changed over the years, by gender, region and june?
+29. [CHART] [CATEGORY: Industry] How has property rental index, office in central region in Singapore changed quarter by quarter, by locality (4th quarter 1998 = 100)?
+30. [CHART] [CATEGORY: Economy & Price] How has the property price index in Singapore changed quarter by quarter, by type (4th quarter 1998 = 100)?
+31. [CHART] [CATEGORY: Households] What is the ownership or availability of selected consumer durables and services in Singapore every five years?
+32. [CHART] [CATEGORY: Industry] How have construction material market prices in Singapore changed each month?
+33. [CHART] [CATEGORY: Industry] How have construction material market prices in Singapore changed over the years?
+34. [CHART] [CATEGORY: Industry] How has property rental index, retail in central region in Singapore changed quarter by quarter, by locality (4th quarter 1998 = 100)?
+35. [CHART] [CATEGORY: Households] What is the breakdown of monthly household spending in Singapore by type of goods and services every five years?
+36. [CHART] [CATEGORY: Economy & Price] How has the housing and development board resale price index in Singapore changed quarter by quarter (1q2009 = 100)?
+37. [CHART] [CATEGORY: Industry] How has the rental index of industrial space in Singapore changed quarter by quarter (4th quarter 2012 = 100)?
+38. [CHART] [CATEGORY: Economy & Price] How has the price index of industrial space in Singapore changed quarter by quarter (4th quarter 2012 = 100)?
+39. [CHART] [CATEGORY: Economy & Price] How has the private residential property price index in Singapore changed quarter by quarter, by type of property (1st quarter 2009 = 100)?
+40. [CHART] [CATEGORY: Economy & Price] How has the price index of non-landed private residential properties in Singapore changed quarter by quarter, by locality (1st quarter 2009 = 100)?
+41. [CHART] [CATEGORY: Industry] How has the rental index of residential properties in Singapore changed quarter by quarter (1st quarter 2009 = 100)?
+42. [CHART] [CATEGORY: Industry] How have rental indices of non-landed private residential properties in Singapore changed quarter by quarter, by locality (1st quarter 2009 = 100)?
+43. [CHART] [CATEGORY: Households] How does average monthly spending by Singapore resident households differ by type of goods and services every five years?
+44. [CHART] [CATEGORY: Economy & Price] How have services producer price indices in Singapore changed each quarter, by index?
+45. [CHART] [CATEGORY: Economy & Price] By how much have services producer price indices in Singapore changed each quarter compared with the previous quarter, by index?
+46. [CHART] [CATEGORY: Economy & Price] By how much have services producer price indices in Singapore changed each quarter compared with the previous year, by index?
+47. [CHART] [CATEGORY: Economy & Price] How has the import price index (2023 = 100) in Singapore changed month by month, by type of goods?
+48. [CHART] [CATEGORY: Economy & Price] How has the import price index (2023 = 100) in Singapore changed over the years, by type of goods?
+49. [CHART] [CATEGORY: Economy & Price] How has the export price index (2023 = 100) in Singapore changed month by month, by type of goods?
+50. [CHART] [CATEGORY: Economy & Price] How has the export price index (2023 = 100) in Singapore changed over the years, by type of goods?
+
+12. OFFICIAL TABLE QUESTIONS BATCH 12
+01. [CHART] [CATEGORY: Economy & Price] By how much has the import price index (2023 = 100) in Singapore changed over the years, compared with the previous year, by type of goods?
+02. [CHART] [CATEGORY: Economy & Price] By how much has the export price index (2023 = 100) in Singapore changed over the years, compared with the previous year, by type of goods?
+03. [CHART] [CATEGORY: Economy & Price] How has the domestic supply price index (2023 = 100) in Singapore changed month by month, by type of goods?
+04. [CHART] [CATEGORY: Economy & Price] How has the domestic supply price index (2023 = 100) in Singapore changed over the years, by type of goods?
+05. [CHART] [CATEGORY: Economy & Price] How has the Singapore manufactured products price index (2023 = 100) changed month by month, by type of goods?
+06. [CHART] [CATEGORY: Economy & Price] How has the Singapore manufactured products price index (2023 = 100) changed over the years, by type of goods?
+07. [CHART] [CATEGORY: Economy & Price] By how much has the domestic supply price index (2023 = 100) in Singapore changed over the years, compared with the previous year, by type of goods?
+08. [CHART] [CATEGORY: Economy & Price] By how much has the Singapore manufactured products price index (2023 = 100) changed over the years, compared with the previous year, by type of goods?
+09. [CHART] [CATEGORY: Economy & Price] How have services producer price indices in Singapore changed over the years for each index?
+10. [CHART] [CATEGORY: Economy & Price] By how much have services producer price indices in Singapore changed over the years compared with the previous year, for each index?
+11. [CHART] [CATEGORY: Economy & Price] How has the import price index (2023 = 100) in Singapore changed quarter by quarter, by type of goods?
+12. [CHART] [CATEGORY: Economy & Price] How has the export price index (2023 = 100) in Singapore changed quarter by quarter, by type of goods?
+13. [CHART] [CATEGORY: Economy & Price] How has the Singapore manufactured products price index (2023 = 100) changed quarter by quarter, by type of goods?
+14. [CHART] [CATEGORY: Economy & Price] How has the domestic supply price index (2023 = 100) in Singapore changed quarter by quarter, by type of goods?
+15. [CHART] [CATEGORY: Economy & Price] How has Singapore's indicator of food price anomalies changed over the years for each consumer food price index?
+16. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) in Singapore changed month by month, using 2024 as the base year?
+17. [CHART] [CATEGORY: Economy & Price] How have average retail prices of selected consumer items in Singapore changed month by month?
+18. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) in Singapore changed month by month compared with the previous period, using 2024 as the base year?
+19. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) in Singapore changed month by month compared with the same period a year earlier, using 2024 as the base year?
+20. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) in Singapore changed over the years, using 2024 as the base year?
+21. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) in Singapore changed over the years compared with the same period a year earlier, using 2024 as the base year?
+22. [CHART] [CATEGORY: Economy & Price] How have average retail prices of selected consumer items in Singapore changed over the years?
+23. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) in Singapore changed from quarter to quarter compared with the previous period, using 2024 as the base year?
+24. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) in Singapore changed from quarter to quarter compared with the same period a year earlier, using 2024 as the base year?
+25. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) in Singapore changed every half year, using 2024 as the base year?
+26. [CHART] [CATEGORY: Economy & Price] How much have consumer prices (CPI), with 2024 as the base year, changed in Singapore every six months compared with the previous period?
+27. [CHART] [CATEGORY: Economy & Price] How much have consumer prices (CPI), with 2024 as the base year, changed in Singapore every six months compared with the same period a year earlier?
+28. [CHART] [CATEGORY: Economy & Price] How have Singapore’s consumer prices (CPI) additional indicators, with 2024 as the base year, changed month by month?
+29. [CHART] [CATEGORY: Economy & Price] How have Singapore’s consumer prices (CPI) additional indicators, with 2024 as the base year, changed over the years?
+30. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, for the lowest 20% of households by income?
+31. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, for the middle 60% of households by income?
+32. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, for the highest 20% of households by income?
+33. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, for the lowest 20% of households by income?
+34. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, for the middle 60% of households by income?
+35. [CHART] [CATEGORY: Economy & Price] How have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, for the highest 20% of households by income?
+36. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, compared with the same period a year earlier, for the lowest 20% of households by income?
+37. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, compared with the same period a year earlier, for the middle 60% of households by income?
+38. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed over the years, compared with the same period a year earlier, for the highest 20% of households by income?
+39. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, compared with the same period a year earlier, for the lowest 20% of households by income?
+40. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, compared with the same period a year earlier, for the middle 60% of households by income?
+41. [CHART] [CATEGORY: Economy & Price] By how much have consumer prices (CPI) (2024 as the base year) in Singapore changed every half year, compared with the same period a year earlier, for the highest 20% of households by income?
+42. [CHART] [CATEGORY: Industry] What are the business expectations for Singapore’s manufacturing sector, broken down by industry, quarter by quarter?
+43. [CHART] [CATEGORY: Industry] How have the most important single factors limiting export orders in Singapore’s manufacturing sector changed quarter by quarter, by industry?
+44. [CHART] [CATEGORY: Industry] On balance, do businesses in Singapore's services sector expect the general business outlook to improve or worsen over the next 6 months?
+45. [CHART] [CATEGORY: Economy & Price] On balance, do businesses in Singapore’s services sector expect employment to rise or fall next quarter?
+46. [CHART] [CATEGORY: Industry] On balance, do businesses in Singapore’s services sector expect their operating revenue to rise or fall next quarter?
+47. [CHART] [CATEGORY: Industry] What percentage of businesses in Singapore's services sector expect the general business outlook to improve, stay the same or worsen over the next 6 months?
+48. [CHART] [CATEGORY: Industry] What percentage of businesses in Singapore’s services sector expect their operating revenue to rise, stay the same or fall next quarter?
+49. [CHART] [CATEGORY: Economy & Price] What percentage of businesses in Singapore’s services sector expect employment to rise, stay the same or fall next quarter?
+50. [CHART] [CATEGORY: Industry] How have Singapore’s main manufacturing statistics changed over the years, excluding rubber processing and granite quarrying?
+
+13. OFFICIAL TABLE QUESTIONS BATCH 13
+01. [CHART] [CATEGORY: Industry] How have selected averages and ratios in Singapore’s manufacturing sector changed over the years, excluding rubber processing and granite quarrying?
+02. [CHART] [CATEGORY: Industry] How have manufacturing establishments in Singapore changed over the years, by industry?
+03. [CHART] [CATEGORY: Industry] How has manufacturing output in Singapore changed over the years, by industry?
+04. [CHART] [CATEGORY: Industry] How has value added of manufacturing establishments in Singapore changed over the years, by industry?
+05. [CHART] [CATEGORY: Industry] How many workers are there in Singapore’s manufacturing sector, broken down by industry?
+06. [CHART] [CATEGORY: Industry] How has remuneration in Singapore’s manufacturing sector changed over the years, by industry?
+07. [CHART] [CATEGORY: Industry] How has total output in Singapore’s manufacturing sector changed over the years, by industry?
+08. [CHART] [CATEGORY: Economy & Price] How has employment in Singapore’s manufacturing sector changed over the years, by industry cluster?
+09. [CHART] [CATEGORY: Industry] How has remuneration in Singapore’s manufacturing sector changed over the years, by industry cluster?
+10. [CHART] [CATEGORY: Industry] How has total output in Singapore’s manufacturing sector changed over the years, by industry cluster?
+11. [CHART] [CATEGORY: Industry] How has value added in Singapore’s manufacturing sector changed over the years, by industry cluster?
+12. [CHART] [CATEGORY: Industry] How has remuneration per worker in Singapore’s manufacturing sector changed over the years, by industry cluster?
+13. [CHART] [CATEGORY: Economy & Price] How has value added per worker in Singapore’s manufacturing sector changed over the years, by industry cluster?
+14. [CHART] [CATEGORY: Industry] What proportion do small-scale manufacturing industries make up of total manufacturing value added in Singapore, and how has this changed over the years?
+15. [CHART] [CATEGORY: Economy & Price] What proportion does medium- and high-tech industry value added make up of total value added in Singapore, and how has this changed over the years?
+16. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed month by month?
+17. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed quarter by quarter?
+18. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed over the years?
+19. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed month by month, by industry cluster?
+20. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed quarter by quarter, by industry cluster?
+21. [CHART] [CATEGORY: Industry] How has the index of industrial production (2025 = 100) in Singapore changed over the years, by industry cluster?
+22. [CHART] [CATEGORY: Industry] By how much has the index of industrial production (2025 = 100) in Singapore changed month by month, compared with the same period a year earlier?
+23. [CHART] [CATEGORY: Industry] By how much has the index of industrial production (2025 = 100) in Singapore changed quarter by quarter, compared with the same period a year earlier?
+24. [CHART] [CATEGORY: Industry] By how much has the index of industrial production (2025 = 100) in Singapore changed month by month, compared with the same period a year earlier, by industry cluster?
+25. [CHART] [CATEGORY: Industry] By how much has the index of industrial production (2025 = 100) in Singapore changed quarter by quarter, compared with the same period a year earlier, by industry cluster?
+26. [CHART] [CATEGORY: Industry] By how much has the index of industrial production (2025 = 100) in Singapore changed over the years, compared with the same period a year earlier, by industry cluster?
+27. [CHART] [CATEGORY: Industry] How have contracts awarded in Singapore changed from month to month, by sector and development type?
+28. [CHART] [CATEGORY: Industry] How have certified progress payments in Singapore changed from month to month, by sector and development type?
+29. [CHART] [CATEGORY: Industry] How have properties managed by the Housing and Development Board in Singapore changed over the years?
+30. [CHART] [CATEGORY: Industry] How have residential units constructed and sold by the Housing and Development Board in Singapore changed over the years?
+31. [CHART] [CATEGORY: Industry] How have contracts awarded and certified progress payments in Singapore changed over the years, by sector and development type?
+32. [CHART] [CATEGORY: Industry] How have residential units managed by the Housing and Development Board in Singapore, as at December, changed over the years?
+33. [CHART] [CATEGORY: Industry] How has the supply of private residential properties in Singapore’s pipeline changed quarter by quarter, by development status?
+34. [CHART] [CATEGORY: Industry] How have available and vacant commercial and industrial properties in Singapore changed quarter by quarter?
+35. [CHART] [CATEGORY: Industry] How has the supply of commercial and industrial properties in Singapore’s pipeline changed quarter by quarter, by development status (private and public sectors)?
+36. [CHART] [CATEGORY: Industry] How have residential dwellings in Singapore changed over the years?
+37. [CHART] [CATEGORY: Industry] How have available and vacant executive condominiums and the supply of executive condominiums in Singapore’s pipeline changed quarter by quarter, by development status?
+38. [CHART] [CATEGORY: Industry] How has JTC-prepared industrial land in Singapore changed over the years?
+39. [CHART] [CATEGORY: Industry] How have available and vacant private residential properties in Singapore changed quarter by quarter?
+40. [CHART] [CATEGORY: Industry] How has the supply of industrial space in Singapore changed quarter by quarter, by development status?
+41. [CHART] [CATEGORY: Industry] How have JTC ready-built facilities in Singapore changed over the years?
+42. [CHART] [CATEGORY: Industry] How has demand for construction materials in Singapore changed from month to month?
+43. [CHART] [CATEGORY: Industry] How has demand for construction materials in Singapore changed quarter by quarter?
+44. [CHART] [CATEGORY: Industry] How has demand for construction materials in Singapore changed over the years?
+45. [CHART] [CATEGORY: Trade & Investment] How have merchandise imports of oil in Singapore changed from month to month, by market?
+46. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of food in Singapore changed from month to month, by market?
+47. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of beverages and tobacco in Singapore changed from month to month, by market?
+48. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of crude materials in Singapore changed from month to month, by market?
+49. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of oil in Singapore changed from month to month, by market?
+50. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of animal and vegetable oils in Singapore changed from month to month, by market?
+
+14. OFFICIAL TABLE QUESTIONS BATCH 14
+01. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of chemicals and chemical products in Singapore changed month by month, by market?
+02. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of manufactured goods in Singapore changed month by month, by market?
+03. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of machinery and equipment in Singapore changed month by month, by market?
+04. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of miscellaneous manufactures in Singapore changed month by month, by market?
+05. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of miscellaneous transactions nes in Singapore changed month by month, by market?
+06. [CHART] [CATEGORY: Trade & Investment] How have re-exports of food in Singapore changed month by month, by market?
+07. [CHART] [CATEGORY: Trade & Investment] How have re-exports of beverages and tobacco in Singapore changed month by month, by market?
+08. [CHART] [CATEGORY: Trade & Investment] How have re-exports of crude materials in Singapore changed month by month, by market?
+09. [CHART] [CATEGORY: Trade & Investment] How have re-exports of oil in Singapore changed month by month, by market?
+10. [CHART] [CATEGORY: Trade & Investment] How have re-exports of animal and vegetable oils in Singapore changed month by month, by market?
+11. [CHART] [CATEGORY: Trade & Investment] How have re-exports of chemicals and chemical products in Singapore changed month by month, by market?
+12. [CHART] [CATEGORY: Trade & Investment] How have re-exports of manufactured goods in Singapore changed month by month, by market?
+13. [CHART] [CATEGORY: Trade & Investment] How have re-exports of machinery and equipment in Singapore changed month by month, by market?
+14. [CHART] [CATEGORY: Trade & Investment] How have re-exports of miscellaneous manufactures in Singapore changed month by month, by market?
+15. [CHART] [CATEGORY: Trade & Investment] How have re-exports of miscellaneous transactions nes in Singapore changed month by month, by market?
+16. [CHART] [CATEGORY: Trade & Investment] How have domestic exports of major non-oil products in Singapore changed month by month?
+17. [CHART] [CATEGORY: Trade & Investment] How has merchandise trade in Singapore changed month by month, by type of goods (at current prices)?
+18. [CHART] [CATEGORY: Trade & Investment] How have merchandise imports in Singapore changed month by month, by type of goods?
+19. [CHART] [CATEGORY: Trade & Investment] How have merchandise exports in Singapore changed month by month, by type of goods?
+20. [CHART] [CATEGORY: Trade & Investment] How have domestic exports in Singapore changed month by month, by type of goods?
+21. [CHART] [CATEGORY: Trade & Investment] How has selected merchandise trade in Singapore changed month by month (at current prices)?
+22. [CHART] [CATEGORY: Trade & Investment] How have re-exports in Singapore changed month by month, by type of goods?
+23. [CHART] [CATEGORY: Trade & Investment] How have merchandise imports of machinery and equipment in Singapore changed month by month?
+24. [CHART] [CATEGORY: Trade & Investment] How have merchandise exports of machinery and equipment in Singapore changed month by month?
+25. [CHART] [CATEGORY: Trade & Investment] How have re-exports of machinery and equipment in Singapore changed month by month?
+26. [CHART] [CATEGORY: Trade & Investment] How have non-oil domestic exports in Singapore changed month by month, by selected market?
+27. [CHART] [CATEGORY: Trade & Investment] How has merchandise trade in Singapore changed month by month, by type of goods (at 2023 prices)?
+28. [CHART] [CATEGORY: Trade & Investment] How have merchandise exports in Singapore changed month by month, by region and market?
+29. [CHART] [CATEGORY: Trade & Investment] How have tariffs applied to imports in Singapore changed over the years?
+30. [CHART] [CATEGORY: Trade & Investment] How has Singapore's share of global merchandise trade changed over the years?
+31. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by place of residence?
+32. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by place of residence (air)?
+33. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by place of residence (sea)?
+34. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by place of residence (land)?
+35. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by length of stay?
+36. [CHART] [CATEGORY: Industry] How have hotel statistics in Singapore changed month by month?
+37. [CHART] [CATEGORY: Industry] How have hotel statistics in Singapore changed over the years?
+38. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed month by month, by gender and age group?
+39. [CHART] [CATEGORY: Industry] How has the number of visitor days in Singapore changed month by month (at end of period)?
+40. [CHART] [CATEGORY: Industry] How have tourism receipts in Singapore changed quarter by quarter, by major components (year-to-date)?
+41. [CHART] [CATEGORY: Industry] How have the number of cruise ships and passenger throughput volume in Singapore changed over the years?
+42. [CHART] [CATEGORY: Industry] How have international visitor arrivals in Singapore changed over the years, by length of stay?
+43. [CHART] [CATEGORY: Industry] How has the enterprise landscape in Singapore changed over the years, by SMEs and non-SMEs?
+44. [CHART] [CATEGORY: Industry] How have key indicators in Singapore changed over the years, by industry group in all services industries?
+45. [CHART] [CATEGORY: Industry] How have key indicators in Singapore changed over the years, by detailed industry in all services industries?
+46. [CHART] [CATEGORY: Industry] How have details of operating expenditure for all services industries in Singapore changed over the years?
+47. [CHART] [CATEGORY: Industry] How has the enterprise landscape in Singapore changed over the years, by ownership?
+48. [CHART] [CATEGORY: Industry] How have top 3 operating expenditure items in Singapore changed over the years, by industry group in all services industries?
+49. [CHART] [CATEGORY: Industry] How has the domestic wholesale trade index (2017 = 100) in Singapore changed quarter by quarter?
+50. [CHART] [CATEGORY: Industry] How has the foreign wholesale trade index (2017 = 100) in Singapore changed quarter by quarter?
+
+15. OFFICIAL TABLE QUESTIONS BATCH 15
+01. [CHART] [CATEGORY: Industry] How has the domestic wholesale trade index (2017 = 100) in Singapore changed over the years?
+02. [CHART] [CATEGORY: Industry] How has the foreign wholesale trade index (2017 = 100) in Singapore changed over the years?
+03. [CHART] [CATEGORY: Industry] How has the domestic wholesale trade index (2017 = 100) in Singapore changed quarter by quarter (after adjusting for price changes)?
+04. [CHART] [CATEGORY: Industry] How has the foreign wholesale trade index (2017 = 100) in Singapore changed quarter by quarter (after adjusting for price changes)?
+05. [CHART] [CATEGORY: Industry] How has the domestic wholesale trade index (2017 = 100) in Singapore changed over the years (after adjusting for price changes)?
+06. [CHART] [CATEGORY: Industry] How has the foreign wholesale trade index (2017 = 100) in Singapore changed over the years (after adjusting for price changes)?
+07. [CHART] [CATEGORY: Industry] How has the business receipts index for services industries (2014=100) in Singapore changed quarter by quarter?
+08. [CHART] [CATEGORY: Industry] How has the business receipts index for services industries (2014=100) in Singapore changed over the years?
+09. [CHART] [CATEGORY: Industry] How has e-commerce revenue in Singapore changed over the years, by industry group in all services industries?
+10. [CHART] [CATEGORY: Industry] How has the enterprise landscape in Singapore changed over the years, by revenue size (excluding the public sector)?
+11. [CHART] [CATEGORY: Industry] How have key indicators of the utilities sector in Singapore changed over the years?
+12. [CHART] [CATEGORY: Industry] How have details of operating expenditure for the utilities sector in Singapore changed over the years?
+13. [CHART] [CATEGORY: Industry] How have key indicators of the services industries in Singapore changed over the years, by size of operating revenue?
+14. [CHART] [CATEGORY: Industry] How has the ratio of top 3 operating expenditure items for selected services industries in Singapore changed over the years?
+15. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed month by month?
+16. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed month by month?
+17. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed quarter by quarter?
+18. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed over the years?
+19. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed over the years?
+20. [CHART] [CATEGORY: Industry] How has the retail sales value (2025 = 100) in Singapore changed month by month (estimated)?
+21. [CHART] [CATEGORY: Industry] How has the value of food & beverage sales (2025 = 100) in Singapore changed month by month (estimated)?
+22. [CHART] [CATEGORY: Industry] How has the proportion of online retail sales in Singapore changed month by month, out of each industry's total sales?
+23. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed month by month (after adjusting for price changes)?
+24. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed month by month (after adjusting for price changes)?
+25. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed quarter by quarter (after adjusting for price changes)?
+26. [CHART] [CATEGORY: Industry] How has the retail sales index (2025 = 100) in Singapore changed over the years (after adjusting for price changes)?
+27. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed over the years (after adjusting for price changes)?
+28. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed quarter by quarter?
+29. [CHART] [CATEGORY: Industry] How has the food & beverage services index (2025 = 100) in Singapore changed quarter by quarter (after adjusting for price changes)?
+30. [CHART] [CATEGORY: Industry] How has the proportion of online food and beverage sales in Singapore changed month by month?
+31. [CHART] [CATEGORY: Industry] How has the number of resident-owned enterprises in Singapore changed over the years, by gender of owner and industry?
+32. [CHART] [CATEGORY: Industry] How has economic performance of resident-owned enterprises in Singapore changed over the years, by gender of owner?
+33. [CHART] [CATEGORY: Industry] How has the number of resident-owned enterprises in Singapore changed over the years, by gender of owner and entity type?
+34. [CHART] [CATEGORY: Industry] How have domestic wholesale trade series in Singapore changed quarter by quarter?
+35. [CHART] [CATEGORY: Industry] How have foreign wholesale trade series in Singapore changed quarter by quarter?
+36. [CHART] [CATEGORY: Industry] How have domestic wholesale trade series in Singapore changed over the years?
+37. [CHART] [CATEGORY: Industry] How have foreign wholesale trade series in Singapore changed over the years?
+38. [CHART] [CATEGORY: Industry] How have domestic wholesale trade series in Singapore changed quarter by quarter (after adjusting for price changes)?
+39. [CHART] [CATEGORY: Industry] How have foreign wholesale trade series in Singapore changed quarter by quarter (after adjusting for price changes)?
+40. [CHART] [CATEGORY: Industry] How have domestic wholesale trade series in Singapore changed over the years (after adjusting for price changes)?
+41. [CHART] [CATEGORY: Industry] How have foreign wholesale trade series in Singapore changed over the years (after adjusting for price changes)?
+42. [CHART] [CATEGORY: Industry] How have business receipts for services industries in Singapore changed quarter by quarter?
+43. [CHART] [CATEGORY: Industry] How have business receipts for services industries in Singapore changed over the years?
+44. [CHART] [CATEGORY: Industry] By how much have business receipts for services industries in Singapore changed quarter by quarter, compared with the previous quarter?
+45. [CHART] [CATEGORY: Industry] By how much have business receipts for services industries in Singapore changed quarter by quarter, compared with the same period a year earlier?
+46. [CHART] [CATEGORY: Industry] By how much have business receipts for services industries in Singapore changed over the years, compared with the same period a year earlier?
+47. [CHART] [CATEGORY: Industry] By how much have domestic wholesale trade series in Singapore changed quarter by quarter, compared with the previous quarter?
+48. [CHART] [CATEGORY: Industry] By how much have domestic wholesale trade series in Singapore changed quarter by quarter, compared with the same period a year earlier?
+49. [CHART] [CATEGORY: Industry] By how much have domestic wholesale trade series in Singapore changed over the years, compared with the same period a year earlier?
+50. [CHART] [CATEGORY: Industry] By how much have domestic wholesale trade series in Singapore changed quarter by quarter, compared with the previous quarter (after adjusting for price changes)?
+
+16. OFFICIAL TABLE QUESTIONS BATCH 16
+01. [CHART] [CATEGORY: Industry] How much did domestic wholesale trade in Singapore change each quarter compared with the same quarter a year earlier, after adjusting for price changes?
+02. [CHART] [CATEGORY: Industry] How much did domestic wholesale trade in Singapore change each year compared with the previous year, after adjusting for price changes?
+03. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each quarter compared with the previous quarter?
+04. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each quarter compared with the same quarter a year earlier?
+05. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each year compared with the previous year?
+06. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each quarter compared with the previous quarter, after adjusting for price changes?
+07. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each quarter compared with the same quarter a year earlier, after adjusting for price changes?
+08. [CHART] [CATEGORY: Industry] How much did foreign wholesale trade in Singapore change each year compared with the previous year, after adjusting for price changes?
+09. [CHART] [CATEGORY: Industry] How did civil aircraft arrivals and departures, passengers, air cargo tonnage and mail at Changi Airport in Singapore change each month?
+10. [CHART] [CATEGORY: Industry] How have telecommunications in Singapore changed month by month?
+11. [CHART] [CATEGORY: Industry] How have telecommunications in Singapore changed over the years?
+12. [CHART] [CATEGORY: Society] How did postal articles handled in Singapore change month by month?
+13. [CHART] [CATEGORY: Society] How did postal articles handled in Singapore change over the years?
+14. [CHART] [CATEGORY: Population] How did Singapore’s motor vehicle population change each month, by vehicle type?
+15. [CHART] [CATEGORY: Industry] How did new motor vehicle registrations under Singapore’s vehicle quota system change each month?
+16. [CHART] [CATEGORY: Industry] How did motor vehicles deregistered under Singapore’s vehicle quota system change each month?
+17. [CHART] [CATEGORY: Society] How did the number of vehicles involved in fatal and injury road traffic accidents in Singapore change over the years, by vehicle type?
+18. [CHART] [CATEGORY: Society] How did public roads in Singapore change over the years?
+19. [CHART] [CATEGORY: Population] How did Singapore’s motor vehicle population under the vehicle quota system change each month, measured at month-end?
+20. [CHART] [CATEGORY: Industry] How did sea cargo and shipping in Singapore change over the years?
+21. [CHART] [CATEGORY: Population] How did Singapore’s motor vehicle population change over the years, by vehicle type?
+22. [CHART] [CATEGORY: Industry] How did civil aircraft arrivals and departures, passengers, air cargo tonnage and mail at Changi Airport in Singapore change over the years?
+23. [CHART] [CATEGORY: Industry] How did outbound departures of Singapore residents change each month, by mode of transport?
+24. [CHART] [CATEGORY: Industry] How did outbound departures of Singapore residents change over the years, by mode of transport?
+25. [CHART] [CATEGORY: Population] How did Singapore’s car population change over the years, by CC rating?
+26. [CHART] [CATEGORY: Society] How has age distribution of cars in Singapore changed over the years?
+27. [CHART] [CATEGORY: Industry] How have sea cargo and shipping statistics in Singapore changed month by month?
+28. [CHART] [CATEGORY: Industry] How have motor vehicle quota, quota premiums and prevailing quota premiums in Singapore changed month by month?
+29. [CHART] [CATEGORY: Industry] How have telecommunications in Singapore changed quarter by quarter?
+30. [CHART] [CATEGORY: Society] How have road traffic accident casualties in Singapore changed over the years?
+31. [CHART] [CATEGORY: Industry] How has the telecommunication penetration rate in Singapore changed month by month?
+32. [CHART] [CATEGORY: Industry] How has the telecommunication penetration rate in Singapore changed over the years?
+33. [CHART] [CATEGORY: Industry] How have residential wired broadband subscriptions in Singapore changed month by month?
+34. [CHART] [CATEGORY: Industry] How have residential wired broadband subscriptions in Singapore changed over the years?
+35. [CHART] [CATEGORY: Industry] How have residential wired broadband subscriptions in Singapore changed quarter by quarter, by speed?
+36. [CHART] [CATEGORY: Economy & Price] How have employed tech and media professionals in Singapore changed over the years?
+37. [CHART] [CATEGORY: Industry] How has public transport operation and ridership in Singapore changed over the years?
+38. [CHART] [CATEGORY: Society] How have causes of accidents in Singapore changed over the years, by severity of injury sustained?
+39. [CHART] [CATEGORY: Society] How have qualified licence holders in Singapore changed over the years, by class of licence?
+40. [CHART] [CATEGORY: Industry] How have vessel arrivals in Singapore changed over the years, by type?
+41. [CHART] [CATEGORY: Industry] How have vessel arrivals in Singapore changed over the years, by purpose?
+42. [CHART] [CATEGORY: Society] How have international telephone call minutes in Singapore changed every half year?
+43. [CHART] [CATEGORY: Population] How has the death rate due to road traffic injuries in Singapore changed over the years?
+44. [CHART] [CATEGORY: Population] How have fixed internet broadband subscriptions per 100 population in Singapore changed over the years?
+45. [CHART] [CATEGORY: Industry] How has sea passenger handling in Singapore changed quarter by quarter?
+46. [CHART] [CATEGORY: Trade & Investment] How have low-value goods cleared in Singapore changed over the years?
+47. [CHART] [CATEGORY: Industry] How have scheduled aircraft and transit passengers in Singapore changed month by month?
+48. [CHART] [CATEGORY: Industry] How have scheduled aircraft and transit passengers in Singapore changed over the years?
+49. [CHART] [CATEGORY: Industry] How has infocomm usage among enterprises in Singapore changed over the years?
+50. [CHART] [CATEGORY: Economy & Price] How has employed tech and media manpower in Singapore changed over the years, across sectors?
+
+17. OFFICIAL TABLE QUESTIONS BATCH 17
+01. [CHART] [CATEGORY: Economy & Price] How has employed tech and media manpower in Singapore changed over the years, by gender?
+02. [CHART] [CATEGORY: Industry] How has the gender breakdown of individuals who own a mobile phone in Singapore changed over the years?
+03. [CHART] [CATEGORY: Society] How have weekday journeys in Singapore changed over the years, broken down by passengers and road?
+04. [CHART] [CATEGORY: Population] What proportion of Singapore’s population lives within 500m of a public transport stop, and how has it changed over the years?
+05. [CHART] [CATEGORY: Industry] How has internet usage in Singapore changed over the years, by Singapore residents aged 16, over and gender?
+06. [CHART] [CATEGORY: Industry] What proportion of Singapore residents using the internet, broken down by region?
+07. [CHART] [CATEGORY: Population] What is the make-up of total population covered in Singapore, by a mobile network and region, and how has it changed over the years?
+08. [CHART] [CATEGORY: Economy & Price] How has currency in circulation in Singapore changed month by month?
+09. [CHART] [CATEGORY: Trade & Investment] How have official foreign reserves in Singapore changed month by month?
+10. [CHART] [CATEGORY: Economy & Price] How have exchange rates in Singapore changed month by month, as at the end of each period?
+11. [CHART] [CATEGORY: Economy & Price] How have exchange rates in Singapore changed month by month, based on the average for each period?
+12. [CHART] [CATEGORY: Economy & Price] How have current bank interest rates in Singapore changed month by month?
+13. [CHART] [CATEGORY: Industry] How have pledges at pawnshops in Singapore changed month by month?
+14. [CHART] [CATEGORY: Industry] How have loans and advances of finance companies in Singapore changed month by month?
+15. [CHART] [CATEGORY: Industry] How have finance companies’ loans and advances in Singapore changed over the years, by industry?
+16. [CHART] [CATEGORY: Industry] How have assets and liabilities of finance companies in Singapore changed month by month?
+17. [CHART] [CATEGORY: Industry] How have life insurance policies in Singapore changed over the years?
+18. [CHART] [CATEGORY: Industry] How have premiums and claims of general insurance funds in Singapore changed over the years?
+19. [CHART] [CATEGORY: Society] How have contributions and withdrawals of central provident fund in Singapore changed over the years?
+20. [CHART] [CATEGORY: Society] How have central provident fund contributions, withdrawals and amount due to members in Singapore changed month by month?
+21. [CHART] [CATEGORY: Society] How has the number of withdrawals of central provident fund in Singapore changed over the years, by type?
+22. [CHART] [CATEGORY: Industry] How has the number of financial institutions in Singapore changed over the years?
+23. [CHART] [CATEGORY: Economy & Price] How have revenue and expenditure accounts of life insurance funds in Singapore changed over the years?
+24. [CHART] [CATEGORY: Industry] How have assets of life insurance funds in Singapore changed over the years?
+25. [CHART] [CATEGORY: Economy & Price] How have revenue and expenditure accounts of general insurance funds in Singapore changed over the years?
+26. [CHART] [CATEGORY: Industry] How have the assets of general insurance funds in Singapore changed over the years?
+27. [CHART] [CATEGORY: Economy & Price] How have exchange rates in Singapore changed over the years, based on the average for each period?
+28. [CHART] [CATEGORY: Trade & Investment] How has equity turnover by volume on the Singapore Exchange changed month by month?
+29. [CHART] [CATEGORY: Trade & Investment] How has equity turnover by value on the Singapore Exchange changed month by month?
+30. [CHART] [CATEGORY: Trade & Investment] How has equity turnover by volume on the Singapore Exchange changed over the years?
+31. [CHART] [CATEGORY: Trade & Investment] How has equity turnover by value on the Singapore Exchange changed over the years?
+32. [CHART] [CATEGORY: Households] How has the household sector balance sheet in Singapore changed quarter by quarter?
+33. [CHART] [CATEGORY: Society] How have withdrawals of central provident fund in Singapore changed over the years, by type?
+34. [CHART] [CATEGORY: Industry] How have credit and charge cards in Singapore changed quarter by quarter?
+35. [CHART] [CATEGORY: Industry] How have credit and charge cards in Singapore changed over the years?
+36. [CHART] [CATEGORY: Industry] How have commercial banks’ loans and advances to Singapore residents changed month by month, by industry?
+37. [CHART] [CATEGORY: Economy & Price] How has the money supply in Singapore changed month by month?
+38. [CHART] [CATEGORY: Economy & Price] How has the monetary survey in Singapore changed month by month?
+39. [CHART] [CATEGORY: Economy & Price] How have commercial banks’ assets and liabilities in Singapore changed month by month?
+40. [CHART] [CATEGORY: Economy & Price] How have merchant banks’ assets and liabilities in Singapore changed month by month?
+41. [CHART] [CATEGORY: Trade & Investment] How has foreign exchange market turnover in Singapore changed month by month?
+42. [CHART] [CATEGORY: Industry] How have commercial banks’ loans and advances to Singapore residents changed quarter by quarter, by industry?
+43. [CHART] [CATEGORY: Economy & Price] How have average remittance costs of sending us$200 as a proportion of the amount remitted in Singapore changed over the years?
+44. [CHART] [CATEGORY: Industry] How have commercial bank branches and automated teller machines in Singapore changed over the years?
+45. [CHART] [CATEGORY: Society] What is the make-up of adults aged 15 years and above with an account at a financial institution or mobile-money-service provider in Singapore, by gender and triennial?
+46. [CHART] [CATEGORY: Trade & Investment] How have official foreign reserves in US dollars in Singapore changed month by month?
+47. [CHART] [CATEGORY: Economy & Price] How have financial soundness indicators in Singapore changed over the years?
+48. [CHART] [CATEGORY: Population] How have population indicators in Singapore changed over the years?
+49. [CHART] [CATEGORY: Population] How have live births in Singapore changed month by month, by gender and ethnic group?
+50. [CHART] [CATEGORY: Population] How have live births in Singapore changed over the years, by place of occurrence?
+
+18. OFFICIAL TABLE QUESTIONS BATCH 18
+01. [CHART] [CATEGORY: Population] How have live births in Singapore changed quarter by quarter, by birth order?
+02. [CHART] [CATEGORY: Population] How have live births in Singapore changed over the years, by birth order?
+03. [CHART] [CATEGORY: Population] How have births and fertility rates in Singapore changed over the years?
+04. [CHART] [CATEGORY: Population] How have infant deaths in Singapore changed month by month, by ethnic group and gender?
+05. [CHART] [CATEGORY: Population] How have deaths in Singapore changed month by month, by ethnic group and gender?
+06. [CHART] [CATEGORY: Population] How have deaths in Singapore changed over the years, by broad groups of causes?
+07. [CHART] [CATEGORY: Population] How have age-specific death rates in Singapore changed over the years?
+08. [CHART] [CATEGORY: Trade & Investment] How have overseas citizens in Singapore changed over the years, by age group, gender, and at the end of June?
+09. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by type of home?
+10. [CHART] [CATEGORY: Economy & Price] How have key indicators on household employment income among resident employed households in Singapore changed over the years?
+11. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by household size?
+12. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by age group and type of home?
+13. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by tenancy, such as owned or rented?
+14. [CHART] [CATEGORY: Population] How has the average number of children born in Singapore changed over the years, by age group of resident ever-married females?
+15. [CHART] [CATEGORY: Population] How has average number of children born to resident ever-married females aged 40 to 49 in Singapore changed over the years, by highest education level?
+16. [CHART] [CATEGORY: Population] How have deaths and death rates in Singapore changed over the years?
+17. [CHART] [CATEGORY: Population] How has life expectancy in Singapore changed over the years, by gender?
+18. [CHART] [CATEGORY: Population] How have resident ever-married females in Singapore changed over the years, by age group and number of children born?
+19. [CHART] [CATEGORY: Population] What is the make-up of singles among Singapore residents, by selected age group and gender, and how has it changed over the years?
+20. [CHART] [CATEGORY: Population] What is the make-up of singles among Singapore residents, by selected age group, gender and highest education level, and how has it changed over the years?
+21. [CHART] [CATEGORY: Population] How many Singapore residents aged 15 years & over are there, broken down by gender and marital status?
+22. [CHART] [CATEGORY: Population] How have key indicators on the elderly in Singapore changed over the years?
+23. [CHART] [CATEGORY: Population] How many Singapore residents aged 20 years & over are there, broken down by gender, age group and marital status?
+24. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by age group of the head of the household and living arrangement?
+25. [CHART] [CATEGORY: Households] How many Singapore resident households are there, broken down by living arrangement and selected characteristics?
+26. [CHART] [CATEGORY: Population] How has Singapore’s citizen population changed over the years by age group, ethnic group and gender?
+27. [CHART] [CATEGORY: Population] What proportion of Singapore citizens are single, by selected age group and gender, and how has this changed over the years?
+28. [CHART] [CATEGORY: Population] What is the make-up of single Singapore citizens by selected age group, gender and highest education level, and how has it changed over the years?
+29. [CHART] [CATEGORY: Population] How has the average number of children born to Singapore citizen women who have ever married changed over the years, by age group?
+30. [CHART] [CATEGORY: Population] How has average number of children born to citizen ever-married females aged 40 to 49 in Singapore changed over the years, by highest education level?
+31. [CHART] [CATEGORY: Population] How has the number of Singapore citizen women who have ever married changed over the years, by age group and number of children born?
+32. [CHART] [CATEGORY: Population] How many Singapore residents were there at the end of June, by single year of age and gender?
+33. [CHART] [CATEGORY: Population] How has the median age of mothers at first birth in Singapore changed over the years?
+34. [CHART] [CATEGORY: Population] How has the number of resident and citizen live births in Singapore changed over the years, by birth order?
+35. [CHART] [CATEGORY: Population] How many Singapore residents are there, broken down by region, age group and gender?
+36. [CHART] [CATEGORY: Population] How have the number and profile of Singapore citizenships and permanent residencies granted changed over the years?
+37. [CHART] [CATEGORY: Population] What was the make-up of Singapore’s non-resident population by pass type at the end of June, and how did it change over the years?
+38. [CHART] [CATEGORY: Population] How many Singapore residents were there at the end of June, by single year of age, ethnic group and gender?
+39. [CHART] [CATEGORY: Population] How has Singapore’s total population changed over the years, by broad age group and gender, as at the end of June?
+40. [CHART] [CATEGORY: Population] How many Singapore residents aged 65 and over in Singapore resident households are there, broken down by living arrangement and age group?
+41. [CHART] [CATEGORY: Society] How has the mortality rate in Singapore attributed to ambient air pollution, exposure to unsafe wash services or unintentional poisoning changed over the years?
+42. [CHART] [CATEGORY: Population] How has the number of children granted Singapore citizenship by descent changed over the years?
+43. [CHART] [CATEGORY: Population] How have deaths among Singapore residents changed over the years, by age group and gender?
+44. [CHART] [CATEGORY: Population] How have live births to Singapore residents changed over the years, by gender and month of occurrence?
+45. [CHART] [CATEGORY: Households] How have the key indicators on household market income among Singapore resident households changed over the years?
+46. [CHART] [CATEGORY: Households] How many Singapore resident households are there, by number of generations?
+47. [CHART] [CATEGORY: Population] How many Singapore residents in resident households are there, by living arrangement, age group and gender?
+48. [CHART] [CATEGORY: Population] How have key marriage indicators in Singapore changed over the years?
+49. [CHART] [CATEGORY: Population] How have marriage rates in Singapore changed over the years?
+50. [CHART] [CATEGORY: Population] How have civil marriages in Singapore changed over the years, by the religion of the grooms and brides?
+
+19. OFFICIAL TABLE QUESTIONS BATCH 19
+01. [CHART] [CATEGORY: Population] How have marriages of minors aged below 21 years in Singapore changed over the years, by type of marriage?
+02. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by month of marriage and type of marriage?
+03. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group of grooms and brides and type of marriage?
+04. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group of grooms, brides and type of marriage?
+05. [CHART] [CATEGORY: Population] How have first marriages for grooms in Singapore changed over the years, by age group of grooms and brides and type of marriage?
+06. [CHART] [CATEGORY: Population] How have first marriages for brides in Singapore changed over the years, by age group of grooms and brides and type of marriage?
+07. [CHART] [CATEGORY: Population] How have first marriages for couples in Singapore changed over the years, by age group of grooms and brides and type of marriage?
+08. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age difference between grooms and brides, marriage order and type of marriage?
+09. [CHART] [CATEGORY: Population] How has the median age of grooms and brides in Singapore changed over the years, by marriage order and type of marriage?
+10. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group, previous marital status of grooms and brides, and type of marriage?
+11. [CHART] [CATEGORY: Population] How has the median age of grooms and brides in Singapore changed over the years, by ethnic group and type of marriage?
+12. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by ethnic group of the couple and type of marriage?
+13. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by ethnic group of the couple, month of marriage and type of marriage?
+14. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by previous marital status, ethnic group of the couple and type of marriage?
+15. [CHART] [CATEGORY: Population] How have inter-ethnic marriages in Singapore changed over the years, by ethnic group of grooms and brides and type of marriage?
+16. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group, ethnic group of grooms and brides, and type of marriage?
+17. [CHART] [CATEGORY: Population] How have resident marriages in Singapore changed over the years, by ethnic group of the couple and type of marriage?
+18. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group, educational qualification of grooms and brides, and type of marriage?
+19. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by educational qualification of grooms and brides and type of marriage?
+20. [CHART] [CATEGORY: Population] How have first marriages for couples in Singapore changed over the years, by educational qualification of grooms and brides and type of marriage?
+21. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by whether grooms and brides are citizens or PRs?
+22. [CHART] [CATEGORY: Population] How has the median age at first marriage of resident citizen grooms and brides in Singapore changed over the years?
+23. [CHART] [CATEGORY: Population] How have the numbers and proportions of inter-ethnic and transnational marriages among citizen marriages in Singapore changed over the years?
+24. [CHART] [CATEGORY: Population] How has the median age at first marriage of non-resident or non-citizen spouses married to citizens in Singapore changed over the years?
+25. [CHART] [CATEGORY: Population] How have marriages in Singapore involving non-resident or non-citizen spouses married to citizens changed over the years, by their age group?
+26. [CHART] [CATEGORY: Population] How have marriages involving non-resident/non-citizen spouses married to citizens in Singapore changed over the years, by educational qualification of the non-resident/non-citizen spouse?
+27. [CHART] [CATEGORY: Population] How have the origins of non-resident/non-citizen spouses married to citizens in Singapore changed over the years?
+28. [CHART] [CATEGORY: Population] How have inter-ethnic marriages in Singapore changed over the years, by the educational qualifications of grooms and brides, and type of marriage?
+29. [CHART] [CATEGORY: Population] What is the make-up of resident females aged 20 to 24 who were married before age 15 or 18 in Singapore, and how has it changed over the years?
+30. [CHART] [CATEGORY: Population] How has median age at first marriage of grooms and brides in Singapore changed over the years, by educational qualification and type of marriage?
+31. [CHART] [CATEGORY: Population] How have marriages in Singapore changed over the years, by age group, educational qualification of resident grooms and brides, and type of marriage?
+32. [CHART] [CATEGORY: Population] How have key indicators on divorces in Singapore changed over the years?
+33. [CHART] [CATEGORY: Population] How have divorce rates in Singapore changed over the years?
+34. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by age group and gender?
+35. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by duration of marriage?
+36. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by ethnic group of couple?
+37. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by ethnic group of couple and month of marriage annulled?
+38. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by age group of males and females?
+39. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by duration of marriage, age group and gender?
+40. [CHART] [CATEGORY: Population] How have annulments in Singapore changed over the years, by previous marital status of males and females?
+41. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by month of divorce and type of divorce?
+42. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age group, gender of divorcees and type of divorce?
+43. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age group of male and female divorcees and type of divorce?
+44. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age at marriage of male and female divorcees and type of divorce?
+45. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by duration of marriage and type of divorce?
+46. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by duration of marriage, number of children under 18, 21 years and more?
+47. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age group, gender of divorcees, duration of marriage and type of divorce?
+48. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age group, previous marital status, gender of divorcees and type of divorce?
+49. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by ethnic group of couple and type of divorce?
+50. [CHART] [CATEGORY: Population] How has median age of male and female divorcees in Singapore changed over the years, by ethnic group and type of divorce?
+
+20. OFFICIAL TABLE QUESTIONS BATCH 20
+01. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by ethnic group of couple, month of divorce and type of divorce?
+02. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by previous marital status, ethnic group of couple and type of divorce?
+03. [CHART] [CATEGORY: Population] How have inter-ethnic divorces in Singapore changed over the years, by ethnic group of male and female divorcees and type of divorce?
+04. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age group, ethnic group, gender of divorcees and type of divorce?
+05. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by age at marriage, ethnic group, gender of divorcees and type of divorce?
+06. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by duration of marriage, ethnic group of couple and type of divorce?
+07. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by duration of marriage, main reason for divorce/main issue in marriage and type of divorce?
+08. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by plaintiff, main reason for divorce/main issue in marriage and type of divorce?
+09. [CHART] [CATEGORY: Population] How have divorces in Singapore changed over the years, by main reason for divorce/main issue in marriage, ethnic group of couple and type of divorce?
+10. [CHART] [CATEGORY: Society] How have indicators on education and literacy in Singapore changed over the years?
+11. [CHART] [CATEGORY: Economy & Price] How has government expenditure on education in Singapore changed over the years?
+12. [CHART] [CATEGORY: Society] How has enrolment in government, government-aided, independent, specialised independent and specialised secondary schools and junior colleges in Singapore changed over the years, by level, gender and age?
+13. [CHART] [CATEGORY: Society] How has enrolment in educational institutions in Singapore changed over the years?
+14. [CHART] [CATEGORY: Society] How many students and teachers in educational institutions are there in Singapore?
+15. [CHART] [CATEGORY: Society] How has government recurrent operating expenditure on education per student in Singapore changed over the years?
+16. [CHART] [CATEGORY: Society] How has enrolment in government and government-aided primary schools in Singapore changed over the years, by level, gender and age?
+17. [CHART] [CATEGORY: Society] How has enrolment in polytechnic diploma courses in Singapore changed over the years, by type of course and gender?
+18. [CHART] [CATEGORY: Society] How has enrolment in university first degree courses in Singapore changed over the years, by type of course and gender?
+19. [CHART] [CATEGORY: Society] How have graduates from polytechnic diploma courses in Singapore changed over the years, by type of course and gender?
+20. [CHART] [CATEGORY: Society] How have graduates from university first degree courses in Singapore changed over the years, by type of course and gender?
+21. [CHART] [CATEGORY: Society] How has enrolment in polytechnic advanced diploma courses in Singapore changed over the years, by type of course?
+22. [CHART] [CATEGORY: Society] How has enrolment in higher degree courses in Singapore changed over the years, by type of course?
+23. [CHART] [CATEGORY: Society] How have graduates from polytechnic advanced diploma courses in Singapore changed over the years, by type of course?
+24. [CHART] [CATEGORY: Society] How have graduates from higher degree courses in Singapore changed over the years, by type of course?
+25. [CHART] [CATEGORY: Society] How has intake of students/trainees under the full-time institutional training and traineeship programmes and students/trainees who completed the programmes in Singapore changed over the years?
+26. [CHART] [CATEGORY: Society] How have the numbers of training places taken up and people who completed the skills training and continuing academic education programmes in Singapore changed over the years?
+27. [CHART] [CATEGORY: Population] How many Singapore residents aged 25 years & over are there, broken down by highest education level, gender and age group?
+28. [CHART] [CATEGORY: Society] How have mean years of schooling in Singapore changed over the years?
+29. [CHART] [CATEGORY: Society] How have principals in Singapore changed over the years?
+30. [CHART] [CATEGORY: Society] How has enrolment in arts institutions in Singapore changed over the years, by course and level?
+31. [CHART] [CATEGORY: Society] How has the number of schools in Singapore changed over the years, by level and type?
+32. [CHART] [CATEGORY: Society] How has the number of teachers in Singapore changed over the years, by level, school type and gender?
+33. [CHART] [CATEGORY: Society] How has the number of vice-principals in Singapore changed over the years, by level, school type and gender?
+34. [CHART] [CATEGORY: Society] How has the number of principals in Singapore changed over the years, by level, school type and gender?
+35. [CHART] [CATEGORY: Society] What proportion of students in Singapore achieved at least minimum proficiency in reading and mathematics, broken down by level and gender?
+36. [CHART] [CATEGORY: Society] How have the combined and gross enrolment ratios for primary, secondary & tertiary education in Singapore changed over the years?
+37. [CHART] [CATEGORY: Society] How have the total net enrolment rate, gender parity index and pupil-teacher ratio for primary and secondary education in Singapore changed over the years?
+38. [CHART] [CATEGORY: Population] How has education profile of Singapore residents aged 25 years & over changed over the years, by selected highest education level (%)?
+39. [CHART] [CATEGORY: Society] How has the number of full-time ITE students admitted in Singapore changed over the years, by gender?
+40. [CHART] [CATEGORY: Society] How has the number of full-time ITE graduates in Singapore changed over the years, by gender?
+41. [CHART] [CATEGORY: Society] How has the number of full-time polytechnic students admitted in Singapore changed over the years, by gender?
+42. [CHART] [CATEGORY: Society] How has full-time polytechnic student enrolment in Singapore changed over the years, by gender?
+43. [CHART] [CATEGORY: Society] How has the number of full-time polytechnic graduates in Singapore changed over the years, by gender?
+44. [CHART] [CATEGORY: Society] How has the number of full-time university students admitted in Singapore changed over the years, by gender?
+45. [CHART] [CATEGORY: Society] How has full-time university student enrolment in Singapore changed over the years, by gender?
+46. [CHART] [CATEGORY: Society] How has the number of full-time university graduates in Singapore changed over the years, by gender?
+47. [CHART] [CATEGORY: Society] How has the number of schools in Singapore changed over the years, by level, type and region?
+48. [CHART] [CATEGORY: Society] How has the number of students in Singapore changed over the years, by school level, region and gender?
+49. [CHART] [CATEGORY: Society] How has the participation rate in organised learning in Singapore changed over the years, one year before the official primary entry age?
+50. [CHART] [CATEGORY: Society] How has the gender parity index for gross enrolment ratio for primary, secondary & tertiary education in Singapore changed over the years?
+

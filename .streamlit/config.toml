@@ -1,0 +1,42 @@
+# Streamlit hardening for Sage. Checked by tests/test_security_hardening.py.
+# This file holds NO secrets and must be shipped. Secrets go in
+# .streamlit/secrets.toml (never shipped) or the process environment.
+
+[global]
+developmentMode = false
+
+[client]
+# Never show stack traces to visitors; Sage shows a reference code instead.
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[server]
+headless = true
+enableXsrfProtection = true
+enableCORS = true
+enableStaticServing = false
+# Code is read-only in production; restart Streamlit after deploying changes.
+fileWatcherType = "none"
+runOnSave = false
+# Sage accepts no uploads; keep payload caps small (MB).
+maxUploadSize = 1
+maxMessageSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false
+
+[logger]
+level = "info"
+
+[theme]
+# Sage paints light pages. Without a base theme, Streamlit follows the visitor's
+# device and draws its own widgets (dropdowns, checkboxes) BLACK in dark mode,
+# which is what the earlier CSS overrides kept fighting. Colours = Sage Mist.
+base = "light"
+primaryColor = "#246c55"
+backgroundColor = "#f2f7f1"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#233b32"

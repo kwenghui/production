@@ -1,0 +1,10 @@
+# Top-level dependencies (source of truth for the hash-pinned lock file).
+# Regenerate the lock with network access, ONE lock for every platform:
+#   python -m pip install uv
+#   uv pip compile requirements.in --universal --generate-hashes --python-version 3.14 -o requirements.lock
+# --universal matters: a lock made on Windows with pip-compile leaves out Linux-only
+# packages (e.g. uvloop, needed by chromadb's server extras), and the Linux install
+# then fails with "all requirements must have their versions pinned with ==".
+# Install in production with:
+#   pip install --require-hashes -r requirements.lock
+-r requirements.txt

@@ -1,0 +1,104 @@
+# Security gate: secret scan, static analysis, tests and dependency audit on every push / PR.
+# Action versions use Node 24 (Node 20 is deprecated on GitHub runners).
+# For the strictest setup, replace each tag with its reviewed commit SHA (SECURITY.md section 4).
+name: security
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  gate:
+    # Pinned image: "ubuntu-latest" moves to Ubuntu 26 from 19 Oct 2026; upgrade deliberately.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2            # the previous commit too, for the behaviour comparison
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      # --- Fast checks: no project dependencies needed ---------------------------
+      - name: Secret and forbidden-file scan
+        run: python tools/check_secrets.py
+      - name: Ruff (errors only)
+        run: |
+          pip install ruff==0.6.9
+          ruff check --select E9,F63,F7,F82 app.py ui utils tools \
+            || { echo "::error title=Ruff::Syntax errors or undefined names - see the step log."; exit 1; }
+      - name: Bandit (high severity)
+        run: |
+          pip install bandit==1.7.10
+          bandit -q -r app.py ui utils tools --severity-level high --confidence-level high \
+            || { echo "::error title=Bandit::High-severity security finding - see the step log."; exit 1; }
+      - name: Ruff (wider rule set, advisory)
+        continue-on-error: true
+        # Report only (--exit-zero): these findings are advice, not failures.
+        run: ruff check --select S,B,SIM,PL --statistics --exit-zero app.py ui utils tools
+
+      # --- Hash-pinned dependencies ----------------------------------------------
+      # Without requirements.lock this job builds one on THIS runner (Linux, Python 3.14,
+      # matching production), attaches it to the run, and stops with instructions.
+      - name: Make requirements.lock if it is missing
+        id: lock
+        run: |
+          if [ -f requirements.lock ]; then echo "made=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          pip install uv==0.8.0
+          uv pip compile requirements.in --universal --generate-hashes --python-version 3.14 \
+             -o requirements.lock
+          echo "made=true" >> "$GITHUB_OUTPUT"
+      - name: Upload the generated lock file
+        if: steps.lock.outputs.made == 'true'
+        uses: actions/upload-artifact@v5
+        with:
+          name: requirements-lock
+          path: requirements.lock
+      - name: Stop until the lock file is committed
+        if: steps.lock.outputs.made == 'true'
+        run: |
+          echo "::error title=requirements.lock missing::Download the 'requirements-lock' artifact from this run (Summary page, Artifacts), unzip it, commit requirements.lock to the repository root and push. Review it first: every package is pinned by hash."
+          exit 1
+      - name: The lock must be made for every platform
+        run: |
+          if ! grep -q -- "--universal" requirements.lock; then
+            echo "::error title=requirements.lock is platform-specific::Regenerate it with: uv pip compile requirements.in --universal --generate-hashes --python-version 3.14 -o requirements.lock (see 'how to run.txt'). A lock made with pip-compile on Windows leaves out Linux-only packages such as uvloop."
+            exit 1
+          fi
+      - name: Install dependencies (hash-pinned)
+        run: pip install --require-hashes -r requirements.lock
+      - name: Tests (incl. the golden behaviour checks)
+        run: python -m unittest discover -s tests
+      - name: Behaviour unchanged since the previous commit (same runner, same libraries)
+        # For an INTENDED behaviour change, put [behaviour-change] in the commit message.
+        if: ${{ !contains(github.event.head_commit.message, '[behaviour-change]') }}
+        run: |
+          if ! git rev-parse -q --verify HEAD~1 >/dev/null; then echo "No previous commit."; exit 0; fi
+          git worktree add ../previous HEAD~1
+          if [ ! -f ../previous/tools/characterise_page.py ]; then
+            echo "Previous commit has no behaviour checks; nothing to compare."; exit 0
+          fi
+          python tools/behaviour_digests.py --against ../previous
+      - name: Coverage (unit tests + behaviour checks; must not fall below 74%)
+        run: python tools/coverage_report.py --behaviour --min 74
+      - name: Formatting (ruff format is the project formatter)
+        run: |
+          pip install ruff==0.6.9
+          ruff format --check app.py ui utils tools tests
+      - name: Dependency audit
+        run: |
+          pip install pip-audit==2.7.3
+          pip-audit -r requirements.lock
+
+  secrets:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      # gitleaks-action v2 still targets Node 20; GitHub runs it on Node 24, which works.
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

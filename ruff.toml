@@ -1,0 +1,19 @@
+# ruff settings (formatter and linter). Kept out of pyproject.toml on purpose:
+# Streamlit Community Cloud treats a pyproject.toml as a second requirements file
+# and warns "More than one requirements file detected".
+
+target-version = "py312"
+line-length = 100
+extend-exclude = ["data", "questions", "reports"]
+
+[lint]
+# Errors that CI blocks on are selected in .github/workflows/security.yml.
+# This wider set is reported (advisory) by the same workflow.
+select = ["E", "F", "W", "B", "S", "SIM", "PL", "UP"]
+ignore = [
+    "PLR0911", "PLR0912", "PLR0913", "PLR2004",   # complexity is tracked by the behaviour checks
+    "S101",                                        # assert is used only in tests
+]
+
+[format]
+quote-style = "preserve"     # keep the existing quotes: formatting changes only layout

@@ -1,0 +1,19 @@
+
+<svg viewBox="0 0 480 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A luminous discovery moment with layered research panels and a sparkling idea">
+<defs>
+ <linearGradient id="researchCard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".96"/><stop offset="1" stop-color="#ecf9f5" stop-opacity=".88"/></linearGradient>
+ <linearGradient id="ideaGlow" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff9c6"/><stop offset="1" stop-color="#ffcb6c"/></linearGradient>
+ <filter id="softGlow"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<circle cx="292" cy="124" r="93" fill="#ffebad" opacity=".25" filter="url(#softGlow)"/>
+<g transform="rotate(-9 220 170)"><rect x="68" y="62" width="294" height="220" rx="25" fill="#073f37" opacity=".14"/><rect x="63" y="55" width="294" height="220" rx="25" fill="url(#researchCard)"/>
+<rect x="90" y="84" width="108" height="12" rx="6" fill="#244b48" opacity=".22"/><rect x="90" y="106" width="178" height="7" rx="3" fill="#244b48" opacity=".10"/>
+<path d="M95 212L137 189 176 202 217 159 256 165 319 120" fill="none" stroke="#139673" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M95 220L137 197 176 210 217 167 256 173 319 128V245H95z" fill="#2bbf91" opacity=".13"/>
+<g fill="#157f66"><circle cx="137" cy="189" r="6"/><circle cx="217" cy="159" r="6"/><circle cx="319" cy="120" r="6"/></g>
+</g>
+<circle cx="352" cy="85" r="57" fill="url(#ideaGlow)" stroke="#fffef1" stroke-width="5"/>
+<path d="M334 80c0-23 36-30 43-4 4 14-8 21-13 31l-20 0c-3-10-10-16-10-27z" fill="none" stroke="#9b6219" stroke-width="7" stroke-linecap="round"/><path d="M347 117h16M350 124h10" stroke="#9b6219" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#fff8ce" stroke-linecap="round" stroke-width="5"><path d="M352 15V3M410 35l11-11M429 84h14M296 34l-10-10"/></g>
+<g fill="#fff7ca"><path d="M410 200l7 16 16 7-16 7-7 16-7-16-16-7 16-7z"/><circle cx="61" cy="125" r="7"/><circle cx="402" cy="275" r="5"/></g>
+</svg>

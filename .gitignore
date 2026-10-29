@@ -1,0 +1,53 @@
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets: never commit or archive these. Use .env.example as the template.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Local databases and caches
+# *.db
+# *.sqlite
+# *.sqlite3
+# chroma/
+
+# Runtime artifacts. These hold visitors' questions (personal data under PDPA).
+logs/
+*.log
+*.tmp
+.cache/
+.streamlit/cache/
+debug.txt
+questions/failed.txt
+questions/success.txt
+test_progress.json
+test_reset_once.json
+charts/
+
+# Backups and editor copies of source files
+*.bak
+*.backup
+*.backup-*
+*.before-*
+*.zip
+
+# Editors and operating system
+.vscode/
+.ropeproject/
+.DS_Store
+Thumbs.db
+
+# Log pseudonym key (losing it only unlinks past digests; never commit it)
+.sage_log_key
+*.txt.1
+*.tmp
